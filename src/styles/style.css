@@ -1,0 +1,39 @@
+h1 {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(47, 48, 58, 1);
+}
+button {
+  color: rgba(33, 150, 243, 1);
+}
+footer {
+  background-color: rgba(47, 48, 58, 1);
+}
+address a {
+  color: rgba(255, 255, 255, 1);
+}
+address {
+  color: rgba(255, 255, 255, 0.6);
+}
+span {
+  color: rgba(33, 150, 243, 1);
+}
+footer a {
+  color: rgba(255, 255, 255, 1);
+}
+article h3 {
+  color: rgba(33, 33, 33, 1);
+}
+article p {
+  color: rgba(117, 117, 117, 1);
+}
+header {
+  background-color: rgba(255, 255, 255, 1);
+}
+main,
+h2,
+article,
+img,
+h3,
+p {
+  background-color: rgba(245, 244, 250, 1);
+}
