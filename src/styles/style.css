@@ -1,4 +1,16 @@
-h1 {
+:root {
+  --colorTextTitle: #212121;
+  --colorTextPrimary: #757575;
+  --colorTextPrimary: #ffffff;
+  --colroTextLink: #2196f3;
+  --colorTextWords: #000000;
+  --colorTextFooterAndSections: #2f303a;
+  --colorTextAdress: #ffffff;
+  --colorTextheader: #ececec;
+  --colorTextWhite: #f5f4fa;
+  --colorTextartiles: #eeeeee;
+}
+/* h1 {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(47, 48, 58, 1);
 }
@@ -36,4 +48,4 @@ img,
 h3,
 p {
   background-color: rgba(245, 244, 250, 1);
-}
+} */
