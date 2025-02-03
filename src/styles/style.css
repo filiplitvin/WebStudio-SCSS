@@ -102,3 +102,15 @@ footer {
   font-family: "Roboto", serif;
   font-weight: 400;
 } */
+body {
+  font-family: "Roboto", serif;
+}
+.title {
+  font-family: "Raleway", serif;
+}
+.section-title {
+  line-height: 6%;
+}
+.section-paragraph {
+  line-height: 3%;
+}
