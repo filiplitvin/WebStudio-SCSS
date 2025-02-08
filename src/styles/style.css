@@ -104,6 +104,8 @@ footer {
 } */
 body {
   font-family: "Roboto", serif;
+  line-height: 24px;
+  font-weight: 400;
 }
 .title {
   font-family: "Raleway", serif;
@@ -113,4 +115,23 @@ body {
 }
 .section-paragraph {
   line-height: 3%;
+}
+.main-saction {
+  line-height: 1.36%;
+  font-weight: 900;
+}
+.header-span {
+  font-family: "Raleway", serif;
+}
+.footer-link {
+  font-family: "Raleway", serif;
+}
+.hero-under-title {
+  font-weight: 700;
+}
+.hero-text {
+  font-weight: 400;
+}
+.hero-button {
+  font-weight: 500;
 }
