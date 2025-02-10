@@ -1,7 +1,7 @@
 :root {
   --colorTextTitle: #212121;
   --colorTextPrimary: #757575;
-  --colorTextPrimary: #ffffff;
+  --colorTextSecondary: #ffffff;
   --colroTextLink: #2196f3;
   --colorTextWords: #000000;
   --colorTextFooterAndSections: #2f303a;
@@ -134,4 +134,79 @@ body {
 }
 .hero-button {
   font-weight: 500;
+}
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.main-section-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.main-section-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.under-section-title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.section-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71429;
+  letter-spacing: 0.03em;
+  color: var(--colorTextPrimary);
+}
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+.team-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--colorTextPrimary);
+}
+.footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71429;
+  letter-spacing: 0.03em;
+}
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+}
+.hero-under-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--colorTextPrimary);
 }
