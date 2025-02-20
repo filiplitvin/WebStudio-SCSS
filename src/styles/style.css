@@ -148,7 +148,6 @@ body {
 }
 .nav-link {
   color: var(--colorTextWords);
-  text-decoration: none;
 }
 .nav-link:hover {
   color: var(--colroTextLink);
@@ -229,7 +228,6 @@ body {
 }
 .list-link {
   color: var(--colorTextWords);
-  text-decoration: none;
 }
 .list-link:hover {
   color: var(--colroTextLink);
@@ -243,8 +241,7 @@ body {
 .main-section-button {
   background-color: var(--colroTextLink);
   color: var(--colorTextSecondary);
-  border: 0;
-  outline: 0;
+
   cursor: pointer;
 }
 .team-section {
@@ -268,14 +265,12 @@ body {
 }
 .footer-link {
   color: var(--colorTextSecondary);
-  text-decoration: none;
 }
 .footer-list {
   text-decoration: none;
 }
 .header-link {
   color: var(--colorTextWords);
-  text-decoration: none;
 }
 .header-link:hover {
   color: var(--colroTextLink);
@@ -283,8 +278,6 @@ body {
 .hero-button:hover {
   background-color: var(--colroTextLink);
   color: var(--colorTextSecondary);
-  border: 0;
-  outline: 0;
 }
 .footer-logo-part {
   color: var(--colroTextLink);
