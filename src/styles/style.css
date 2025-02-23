@@ -18,6 +18,20 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.nav {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .title {
   font-family: "Raleway", serif;
   text-decoration: none;
@@ -32,6 +46,12 @@ body {
 .main-saction {
   line-height: 1.36%;
   font-weight: 900;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.hero {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .header-span {
   font-family: "Raleway", serif;
@@ -76,6 +96,10 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .under-section-title {
   font-weight: 700;
   font-size: 14px;
@@ -94,6 +118,15 @@ body {
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-bottom: 50px;
+}
+.work-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.team-section {
+  padding-top: 94px;
+  padding-bottom: 87px;
 }
 .team-name {
   font-weight: 500;
@@ -112,6 +145,8 @@ body {
   line-height: 1.71429;
   letter-spacing: 0.03em;
   background-color: var(--colorTextFooterAndSections);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .hero-button {
   font-weight: 500;
