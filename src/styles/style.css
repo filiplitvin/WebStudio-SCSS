@@ -40,7 +40,10 @@ body {
 .header-logo-part {
   color: var(--colorTextWords);
 }
-
+.nav {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -100,7 +103,7 @@ body {
 }
 .team {
   padding-top: 94px;
-  padding-bottom: 87px;
+  padding-bottom: 94px;
 }
 .teammmate-name {
   font-weight: 500;
