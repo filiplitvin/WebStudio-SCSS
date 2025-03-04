@@ -29,7 +29,12 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-
+.nav-list {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
 .header-logo {
   font-family: "Raleway", serif;
   font-size: 26px;
@@ -37,15 +42,19 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.19;
   color: var(--colroTextLink);
+  display: flex;
+  justify-content: flex-start;
 }
 .header-logo-part {
   color: var(--colorTextWords);
+  display: flex;
+  gap: 93px;
+  justify-content: flex-start;
 }
-
-.hero {
-  max-width: 1600px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+.contacts {
+  display: flex;
+  gap: 93px;
+  justify-content: flex-end;
 }
 
 .nav-link {
@@ -57,20 +66,29 @@ body {
 .nav-link:hover {
   color: var(--colroTextLink);
 }
+.hero {
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .hero-title {
+  display: flex;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36364;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-align: center;
+  justify-content: center;
 }
+
 .hero-button {
+  display: flex;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  text-align: center;
+  justify-content: center;
 }
 .feachers {
   max-width: 1600px;
@@ -82,7 +100,15 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.feachers-list {
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  column-gap: 30px;
+  align-items: baseline;
+}
 .feachers-text {
+  padding-top: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71429;
@@ -100,22 +126,44 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.work-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  text-decoration: none;
+}
 .team {
   max-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.teammmate-name {
+.team-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.teammate {
+  background-color: var(--colorTextSecondary);
+}
+.teammate-name {
+  display: flex;
+  justify-content: center;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.03em;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
-.team-role {
+.teammate-role {
+  display: flex;
+  justify-content: center;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.03em;
   color: var(--colorTextPrimary);
+  padding-bottom: 30px;
 }
+
 .footer {
   max-width: 1600px;
   font-weight: 400;
@@ -174,6 +222,7 @@ body {
   color: var(--colorTextSecondary);
 }
 .footer-logo {
+  display: flex;
   font-family: "Raleway", serif;
   font-size: 26px;
   font-weight: 700;
@@ -182,6 +231,8 @@ body {
   color: var(--colroTextLink);
 }
 .footer-logo-part {
+  display: flex;
+  gap: 10px;
   font-family: "Raleway", serif;
   font-size: 26px;
   font-weight: 700;
@@ -197,7 +248,10 @@ body {
   color: var(--colorTextSecondary);
 }
 .footer-list {
+  display: flex;
   text-decoration: none;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .header-link {
   color: var(--colorTextWords);
