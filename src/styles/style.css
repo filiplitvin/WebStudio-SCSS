@@ -21,19 +21,27 @@ body {
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .header {
   max-width: 1600px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
+.header > .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
 .nav-list {
   display: flex;
   gap: 50px;
   justify-content: flex-start;
   flex-wrap: nowrap;
+  margin-right: 93px;
 }
 .header-logo {
   font-family: "Raleway", serif;
@@ -55,6 +63,7 @@ body {
   display: flex;
   gap: 93px;
   justify-content: flex-end;
+  margin: 0px 50px;
 }
 
 .nav-link {
@@ -74,21 +83,42 @@ body {
 
 .hero-title {
   display: flex;
+  flex-direction: column;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36364;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   justify-content: center;
+  max-width: 620px;
+  margin: auto;
+  margin-bottom: 30px;
 }
+.hero-title-part {
+  display: flex;
 
+  margin: auto;
+  max-width: 500px;
+}
+/* .hero-container {
+  display: flex;
+  justify-content: center;
+} */
+.hero-container {
+  display: flex;
+  justify-content: center;
+}
 .hero-button {
   display: flex;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  justify-content: center;
+  max-width: 216px;
+  max-height: 50px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  /* margin: auto; */
 }
 .feachers {
   max-width: 1600px;
@@ -131,11 +161,15 @@ body {
   justify-content: center;
   gap: 30px;
   text-decoration: none;
+  list-style-type: none;
 }
 .team {
   max-width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.team-title {
+  margin-bottom: 50px;
 }
 .team-list {
   display: flex;
@@ -262,7 +296,4 @@ body {
 .hero-button:hover {
   background-color: var(--colroTextLink);
   color: var(--colorTextSecondary);
-}
-.footer-logo-part {
-  color: var(--colroTextLink);
 }
