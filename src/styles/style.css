@@ -227,6 +227,7 @@ body {
   justify-content: center;
   margin-top: 94px;
   margin-bottom: 50px;
+  gap: 8px;
 }
 .filters-button {
   font-weight: 500;
@@ -261,6 +262,7 @@ body {
 }
 .project-title {
   padding-top: 20px;
+  padding-left: 24px;
 }
 
 .project-text {
@@ -271,6 +273,7 @@ body {
   color: var(--colorTextPrimary);
   padding-top: 4px;
   padding-bottom: 20px;
+  padding-left: 24px;
 }
 .portfolio-item {
   color: var(--colorTextWords);
