@@ -27,7 +27,6 @@ body {
   gap: 30px;
 }
 .header-container {
-  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -86,7 +85,6 @@ body {
   padding-bottom: 200px;
 }
 .hero-container {
-  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
