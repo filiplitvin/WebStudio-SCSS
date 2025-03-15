@@ -24,12 +24,12 @@ body {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  gap: 30px;
 }
 .header-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .header {
   padding-top: 24px;
@@ -145,7 +145,7 @@ body {
 }
 .feachers-list {
   display: flex;
-  text-align: center;
+
   flex-wrap: nowrap;
   column-gap: 30px;
   align-items: baseline;
@@ -225,7 +225,7 @@ body {
 .filters {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
+  /* margin-top: 94px; */
   margin-bottom: 50px;
   gap: 8px;
 }
@@ -237,7 +237,7 @@ body {
   border: 0;
   outline: 0;
   cursor: pointer;
-  margin: 8px;
+  gap: 8px;
   border-radius: 4px;
   background: var(--colorTextWhite);
 }
@@ -252,6 +252,7 @@ body {
   display: flex;
 }
 .portfolio {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .portfolio-list {
