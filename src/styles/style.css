@@ -19,7 +19,7 @@ body {
   letter-spacing: 0.03em;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1206px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -34,6 +34,9 @@ body {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border-width: 0px 0px 1px 0px;
+  border-color: var(--colorTextartiles);
+  border-style: solid;
 }
 .header > .container {
   display: flex;
@@ -240,6 +243,7 @@ body {
   gap: 8px;
   border-radius: 4px;
   background: var(--colorTextWhite);
+  padding: 6px 25px;
 }
 .filters-button:hover {
   background-color: var(--colroTextLink);
@@ -261,9 +265,16 @@ body {
   flex-wrap: wrap;
   gap: 30px;
 }
+.project {
+  border-width: 0px 1px 1px 1px;
+  border-color: var(--colorTextartiles);
+  border-style: solid;
+}
 .project-title {
   padding-top: 20px;
   padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 4px;
 }
 
 .project-text {
@@ -275,6 +286,7 @@ body {
   padding-top: 4px;
   padding-bottom: 20px;
   padding-left: 24px;
+  padding-right: 24px;
 }
 .portfolio-item {
   color: var(--colorTextWords);
@@ -295,6 +307,7 @@ body {
 }
 .footer-text {
   color: var(--colorTextSecondary);
+  padding-bottom: 9px;
 }
 .footer-logo {
   display: flex;
@@ -304,6 +317,8 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.19;
   color: var(--colroTextLink);
+  /* padding-left: 215px;
+  padding-top: 60px; */
 }
 .footer-logo-part {
   display: flex;
@@ -314,6 +329,7 @@ body {
   letter-spacing: 0.03em;
   line-height: 1.19;
   color: var(--colorTextSecondary);
+  padding-bottom: 20px;
 }
 .footer-address {
   color: var(--colorTextSecondary);
@@ -321,6 +337,9 @@ body {
 }
 .footer-link {
   color: var(--colorTextSecondary);
+}
+.footer-mail {
+  padding-bottom: 9px;
 }
 /* .footer-list {
   display: flex;
