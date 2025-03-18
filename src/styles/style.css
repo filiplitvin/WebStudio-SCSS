@@ -276,7 +276,7 @@ body {
   padding-top: 20px;
   padding-left: 24px;
   padding-right: 24px;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .project-text {
@@ -286,7 +286,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--colorTextPrimary);
   padding-top: 4px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
 }
@@ -310,7 +310,7 @@ body {
 }
 .footer-text {
   color: var(--colorTextSecondary);
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .footer-logo {
   display: flex;
@@ -342,7 +342,7 @@ body {
   color: var(--colorTextSecondary);
 }
 .footer-mail {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 /* .footer-list {
   display: flex;
