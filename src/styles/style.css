@@ -292,7 +292,7 @@ body {
 }
 .portfolio-item {
   color: var(--colorTextWords);
-  flex-basis: calc((100% - 30px) / 4);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .hero {
