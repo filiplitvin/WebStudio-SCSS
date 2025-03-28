@@ -140,18 +140,59 @@ body {
   /* max-width: 1600px; */
   padding-top: 94px;
 }
-.feachers-title {
-  font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
+
 .feachers-list {
   display: flex;
 
   flex-wrap: nowrap;
   column-gap: 30px;
   align-items: baseline;
+}
+.feachers-item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background-color: var(--colorTextWhite);
+  margin-bottom: 30px;
+  background-image: url(../imges/feachers/radio-station.svg);
+  border-radius: 4px;
+  background-position: center;
+}
+.feachers-item:nth-child(2)::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background-color: var(--colorTextWhite);
+  margin-bottom: 30px;
+  background-image: url(../imges/feachers/timer.svg);
+  border-radius: 4px;
+  background-position: center;
+}
+.feachers-item:nth-child(3)::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background-color: var(--colorTextWhite);
+  margin-bottom: 30px;
+  background-image: url(../imges/feachers/cmputer.svg);
+  border-radius: 4px;
+  background-position: center;
+}
+.feachers-item:nth-child(4)::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background-color: var(--colorTextWhite);
+  margin-bottom: 30px;
+  background-image: url(../imges/feachers/astronaut.svg);
+  border-radius: 4px;
+  background-position: center;
+}
+.feachers-title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .feachers-text {
   padding-top: 10px;
