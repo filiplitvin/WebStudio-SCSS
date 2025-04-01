@@ -18,6 +18,11 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .container {
   max-width: 1206px;
   padding-left: 15px;
@@ -135,7 +140,9 @@ body {
   cursor: pointer;
   margin: auto;
 }
-
+.hero-button:hover {
+  box-shadow: 0px 4px 4px 0px #00000070;
+}
 .feachers {
   /* max-width: 1600px; */
   padding-top: 94px;
@@ -233,6 +240,9 @@ body {
   justify-content: center;
   gap: 30px;
 }
+.team-item {
+  box-shadow: 0px 4px 4px 0px #00000059;
+}
 .teammate {
   background-color: var(--colorTextSecondary);
 }
@@ -274,7 +284,9 @@ body {
   margin-bottom: 50px;
   gap: 8px;
 }
-
+.filters-item:hover {
+  box-shadow: 0px 4px 4px 0px #00000059;
+}
 .filters-button {
   font-weight: 500;
   font-size: 16px;
@@ -335,7 +347,9 @@ body {
   color: var(--colorTextWords);
   flex-basis: calc((100% - 60px) / 3);
 }
-
+.portfolio-item:hover {
+  box-shadow: 0px 4px 4px 0px #00000059;
+}
 .hero {
   background-color: var(--colorTextFooterAndSections);
 }
