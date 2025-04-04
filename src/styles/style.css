@@ -141,7 +141,7 @@ img {
   margin: auto;
 }
 .hero-button:hover {
-  box-shadow: 0px 4px 4px 0px #00000070;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .feachers {
   /* max-width: 1600px; */
@@ -240,11 +240,9 @@ img {
   justify-content: center;
   gap: 30px;
 }
-.team-item {
-  box-shadow: 0px 4px 4px 0px #00000059;
-}
 .teammate {
   background-color: var(--colorTextSecondary);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
 }
 .teammate-name {
   display: flex;
@@ -284,9 +282,7 @@ img {
   margin-bottom: 50px;
   gap: 8px;
 }
-.filters-item:hover {
-  box-shadow: 0px 4px 4px 0px #00000059;
-}
+
 .filters-button {
   font-weight: 500;
   font-size: 16px;
@@ -303,6 +299,7 @@ img {
 .filters-button:hover {
   background-color: var(--colroTextLink);
   color: var(--colorTextSecondary);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 .portfolio-container {
   /* max-width: 1170px; */
@@ -324,6 +321,9 @@ img {
   border-width: 0px 1px 1px 1px;
   border-color: var(--colorTextartiles);
   border-style: solid;
+}
+.project:hover {
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 .project-title {
   padding-top: 20px;
@@ -347,9 +347,7 @@ img {
   color: var(--colorTextWords);
   flex-basis: calc((100% - 60px) / 3);
 }
-.portfolio-item:hover {
-  box-shadow: 0px 4px 4px 0px #00000059;
-}
+
 .hero {
   background-color: var(--colorTextFooterAndSections);
 }
