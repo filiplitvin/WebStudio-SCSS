@@ -91,6 +91,12 @@ img {
   /* max-width: 1600px; */
   padding-top: 200px;
   padding-bottom: 200px;
+  background-color: var(--colorTextFooterAndSections);
+  background-image: linear-gradient(to right, #2f303a40, #2f303a40),
+    url(../hero-photo/bg-photo.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .hero-container {
   display: flex;
@@ -347,11 +353,6 @@ img {
   color: var(--colorTextWords);
   flex-basis: calc((100% - 60px) / 3);
 }
-
-.hero {
-  background-color: var(--colorTextFooterAndSections);
-}
-
 .team {
   background-color: var(--colorTextWhite);
 }
