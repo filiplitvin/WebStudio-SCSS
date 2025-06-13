@@ -27,3 +27,6 @@ ul {
 address {
   font-style: normal;
 }
+img {
+  display: block;
+}

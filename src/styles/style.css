@@ -247,6 +247,22 @@ img {
   gap: 30px;
   text-decoration: none;
   list-style-type: none;
+  flex-wrap: wrap;
+}
+.work-item {
+  position: relative;
+}
+.work-subtitle {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: var(--colorTextSecondary);
+  background-color: rgb(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
+  padding-left: 107px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .team {
   /* max-width: 1600px; */
