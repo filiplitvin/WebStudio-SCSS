@@ -48,6 +48,13 @@ img {
   justify-content: space-between;
   flex-direction: row;
 }
+.header-link {
+  color: var(--colorTextWords);
+}
+.header-link:hover {
+  color: var(--colroTextLink);
+}
+
 .nav-list {
   display: flex;
   gap: 50px;
@@ -85,6 +92,19 @@ img {
 }
 .contacts-icon:hover {
   fill: var(--colroTextLink);
+  cursor: pointer;
+}
+.contacts-link:hover {
+  color: var(--colroTextLink);
+  cursor: pointer;
+}
+.contacts-link:hover .contacts-icon {
+  fill: var(--colroTextLink);
+  cursor: pointer;
+}
+.contacts-link:hover .contacts-icon-phone {
+  fill: var(--colroTextLink);
+  cursor: pointer;
 }
 .contacts-icon-phone {
   width: 10px;
@@ -314,16 +334,17 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  padding-top: 12px;
 }
 .social-link:hover {
   display: flex;
   justify-content: center;
-  padding-top: 12px;
+
   background-color: var(--colroTextLink);
   border-radius: 50%;
 }
 .teammate-icon:hover {
-  /* background-color: var(--colroTextLink); */
+  background-color: var(--colroTextLink);
   fill: var(--colorTextSecondary);
   cursor: pointer;
 }
@@ -331,6 +352,10 @@ img {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
+}
+.clients {
+  padding-top: 186px;
+  padding-bottom: 186px;
 }
 .clients-box {
   display: flex;
@@ -365,7 +390,6 @@ img {
   border-radius: 6px;
   width: 170px;
   height: 92px;
-  margin-bottom: 94px;
 }
 .clients-item-icon:hover {
   fill: var(--colroTextLink);
@@ -373,9 +397,9 @@ img {
   border: 1px solid var(--colroTextLink);
 }
 .clients-title {
-  padding-top: 94px;
   padding-bottom: 50px;
   font-size: 36px;
+  font-weight: 700;
 }
 
 .filters {
@@ -461,10 +485,7 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.footer-text {
-  color: var(--colorTextSecondary);
-  margin-bottom: 9px;
-}
+
 .footer {
   display: flex;
   align-items: baseline;
@@ -513,6 +534,10 @@ img {
 .footer-link {
   color: var(--colorTextSecondary);
 }
+.footer-text {
+  color: var(--colorTextSecondary);
+  margin-bottom: 9px;
+}
 .footer-mail {
   margin-bottom: 9px;
 }
@@ -526,8 +551,11 @@ img {
   /* padding-top: 72px; */
   height: 100%;
   margin-left: 70px;
+  font-weight: 700;
 }
-
+.footer-social-title {
+  padding-bottom: 12px;
+}
 .footer-social-list {
   display: flex;
   gap: 10px;
@@ -537,14 +565,13 @@ img {
   display: flex;
   width: 44px;
   height: 44px;
+  padding-top: 12px;
   border-radius: 50%;
 }
 .footer-social-link:hover {
   display: flex;
   justify-content: center;
-  padding-top: 12px;
   background-color: var(--colroTextLink);
-  border-radius: 50%;
 }
 .footer-icon:hover {
   fill: var(--colorTextSecondary);
@@ -555,10 +582,4 @@ img {
   height: 20px;
   fill: var(--colorTextSecondary);
   background-color: (rgba(255, 255, 255, 0.09));
-}
-.header-link {
-  color: var(--colorTextWords);
-}
-.header-link:hover {
-  color: var(--colroTextLink);
 }
