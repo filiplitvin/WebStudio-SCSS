@@ -30,3 +30,11 @@ address {
 img {
   display: block;
 }
+input {
+  border: 0;
+  outline: 0;
+}
+textarea {
+  border: 0;
+  outline: 0;
+}
