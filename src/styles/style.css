@@ -59,6 +59,7 @@ img {
   display: flex;
   gap: 50px;
   justify-content: flex-start;
+  align-items: center;
   flex-wrap: nowrap;
   margin-right: 93px;
 }
@@ -116,10 +117,26 @@ img {
   fill: var(--colroTextLink);
 }
 .nav-link {
+  position: relative;
   color: var(--colorTextTitle);
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
+}
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  background-color: var(--colroTextLink);
+  left: 0;
+  bottom: -34px;
+  border-radius: 6px;
+  opacity: 0;
+}
+.nav-link:hover::after {
+  opacity: 1;
 }
 .nav-link:hover {
   color: var(--colroTextLink);
@@ -587,16 +604,22 @@ img {
   border-color: var(--colorTextartiles);
   border-style: solid;
 }
+.project-photo {
+  position: relative;
+  overflow: hidden;
+}
+.project-overlay {
+  inset: 0;
+  position: absolute;
+  transform: translateY(100%);
+  transition: transform 1s ease;
+}
 .project:hover {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.project-title {
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
-  margin-bottom: 4px;
+.project:hover .project-overlay {
+  transform: translateX(0);
 }
-
 .project-text {
   font-weight: 400;
   font-size: 16px;
@@ -607,6 +630,15 @@ img {
   margin-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+}
+.project-text-overlay {
+  max-width: 370px;
+  max-height: 294px;
+  background-color: rgba(33, 149, 243, 0.9);
+  color: var(--colorTextSecondary);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 24px 63px;
 }
 .portfolio-item {
   color: var(--colorTextWords);
@@ -623,9 +655,7 @@ img {
 }
 
 .footer {
-  display: flex;
   align-items: baseline;
-  flex-direction: row;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71429;
@@ -755,6 +785,11 @@ img {
 .footer-mlbutton-box {
   position: relative;
 }
+/* .footer-email-info {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+} */
 .footer-ml-button {
   left: 10px;
   position: absolute;
