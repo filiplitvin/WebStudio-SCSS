@@ -806,6 +806,7 @@ img {
 .footer-ml-button {
   display: flex;
   font-weight: 700;
+  align-items: center;
   font-size: 14px;
   line-height: 1.875;
   letter-spacing: 0.06em;
