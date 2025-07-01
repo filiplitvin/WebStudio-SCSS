@@ -274,29 +274,91 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <a class="footer-logo" href="../../index.html"
-          ><span class="footer-logo-part-1">Web</span
-          ><span class="footer-logo-part">Studio</span></a
-        >
-        <address class="footer-address">
-          <p class="footer-text">м-Київ, пр-т Лесі Українки,26</p>
-          <ul class="footer-list">
-            <li class="footer-item">
-              <a
-                class="footer-link footer-mail"
-                href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+      <div class="container footer-container">
+        <div class="footer-policy-box">
+          <a class="footer-logo" href="./index.html"
+            >Web<span class="footer-logo-part">Studio</span></a
+          >
+          <address class="footer-address">
+            <p class="footer-text">м-Київ, пр-т Лесі Українки,26</p>
+            <ul class="footer-list">
+              <li class="footer-item">
+                <a class="footer-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="footer-link" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer-social-box">
+          <h2 class="footer-social-title">приєднуйтесь</h2>
+
+          <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a href="#" class="footer-social-link">
+                <svg class="footer-icon">
+                  <use
+                    href="../../src/imges/feachers/icons.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-item">
-              <a class="footer-link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
+            <li class="footer-social-item">
+              <a href="#" class="footer-social-link">
+                <svg class="footer-icon">
+                  <use
+                    href="../../src/imges/feachers/icons.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="#" class="footer-social-link">
+                <svg class="footer-icon">
+                  <use
+                    href="../../src/imges/feachers/icons.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a href="#" class="footer-social-link">
+                <svg class="footer-icon">
+                  <use
+                    href="../../src/imges/feachers/icons.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
+        <div class="subscribe">
+          <h2 class="subscribe-title">Підпишіться на розсилку</h2>
+          <form class="subscribe-form">
+            <label class="footer-email-info" for="user_email">Пошта</label>
+            <input
+              placeholder="E-mail"
+              class="footer-ml-mail"
+              type="email"
+              id="user_email"
+            />
+            <button type="submit" class="footer-ml-button">
+              Підписатися
+              <svg class="footer-vector-ml">
+                <use
+                  href="../../src/imges/modal-img/symbol-defs.svg#icon-telegram"
+                ></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <script type="module" src="./src/js/modal.js"></script>
   </body>
 </html>
