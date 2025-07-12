@@ -242,8 +242,6 @@ img {
   pointer-events: none;
 }
 .backdrop.is-hidden .modal {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate(50%, -20%);
 }
 .modal {
@@ -259,9 +257,11 @@ img {
   padding-right: 40px;
   padding-top: 12px;
   border-radius: 7px;
-  box-shadow: 0px 1px 3px 0px rgb(0, 0, 0, 0.88),
-    0px 1px 1px 0px rgb(0, 0, 0, 0.86), 0px 2px 1px 0px rgb(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 3px 0px rgb(0, 0, 0, 0.88);
   /* padding: 50px; */
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-title {
   padding-top: 40px;
@@ -678,7 +678,6 @@ img {
   inset: 0;
   position: absolute;
   transform: translateY(100%);
-  transition: transform ease;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
