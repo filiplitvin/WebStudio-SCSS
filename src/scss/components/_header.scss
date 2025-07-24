@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-width: 0px 0px 1px 0px;
+  border-color: var(--colorTextartiles);
+  border-style: solid;
+}
+
+.header-link {
+  color: var(--colorTextWords);
+}
+.header-link:hover {
+  color: var(--colroTextLink);
+}
+.header-logo {
+  font-family: "Raleway", serif;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.19;
+  color: var(--colroTextLink);
+  display: flex;
+  justify-content: flex-start;
+}
+.header-logo-part {
+  color: var(--colorTextWords);
+  display: flex;
+  margin-right: 93px;
+  justify-content: flex-start;
+}

@@ -1,0 +1,52 @@
+.project {
+  border-width: 0px 1px 1px 1px;
+  border-color: var(--colorTextartiles);
+  border-style: solid;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project-photo {
+  position: relative;
+  overflow: hidden;
+}
+.project-overlay {
+  inset: 0;
+  position: absolute;
+  transform: translateY(100%);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.project:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.project:hover .project-overlay {
+  transform: translateX(0);
+}
+.project-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--colorTextPrimary);
+  padding-top: 4px;
+  margin-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.project-text-overlay {
+  max-width: 370px;
+  max-height: 294px;
+  background-color: rgba(33, 149, 243, 0.9);
+  color: var(--colorTextSecondary);
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 63px;
+  padding-bottom: 63px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.portfolio-item {
+  color: var(--colorTextWords);
+  flex-basis: calc((100% - 60px) / 3);
+}

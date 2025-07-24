@@ -1,0 +1,91 @@
+.nav-list {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-right: 93px;
+}
+.nav-link {
+  position: relative;
+  color: var(--colorTextTitle);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  background-color: var(--colroTextLink);
+  left: 0;
+  bottom: -34px;
+  border-radius: 6px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.nav-link::before {
+  content: "";
+  margin-left: auto;
+  display: block;
+  transition: 0.5s;
+}
+.nav-link:hover::after {
+  opacity: 1;
+}
+.nav-link:hover {
+  color: var(--colroTextLink);
+}
+.contacts {
+  display: flex;
+  gap: 93px;
+  justify-content: flex-end;
+  margin: 0px 50px;
+}
+.contacts-icon {
+  width: 16px;
+  height: 12px;
+  fill: var(--colorTextPrimary);
+  margin-right: 10px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts-icon:hover {
+  fill: var(--colroTextLink);
+  cursor: pointer;
+}
+.contacts-link {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts-link:hover {
+  color: var(--colroTextLink);
+  cursor: pointer;
+}
+.contacts-link:hover .contacts-icon {
+  fill: var(--colroTextLink);
+  cursor: pointer;
+}
+.contacts-link:hover .contacts-icon-phone {
+  fill: var(--colroTextLink);
+  cursor: pointer;
+}
+.contacts-icon-phone {
+  width: 10px;
+  height: 16px;
+  fill: var(--colorTextPrimary);
+  margin-right: 10px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts-icon-phone:hover {
+  fill: var(--colroTextLink);
+}
