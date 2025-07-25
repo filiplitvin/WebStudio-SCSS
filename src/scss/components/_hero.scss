@@ -11,7 +11,6 @@
 .hero-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .hero-title {
   display: flex;
@@ -30,10 +29,7 @@
 .hero-title-part {
   margin: auto;
 }
-.hero-container {
-  display: flex;
-  justify-content: center;
-}
+
 .hero-button {
   display: flex;
   font-weight: 700;
