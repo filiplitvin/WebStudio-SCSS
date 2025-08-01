@@ -4,14 +4,14 @@
   font-size: 14px;
   line-height: 1.71429;
   letter-spacing: 0.03em;
-  background-color: var(--colorTextFooterAndSections);
+  background-color: $colorTextFooterAndSections;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-container {
+.footer__container {
   display: flex;
 }
-.footer-policy-box {
+.policy {
   display: block;
   max-width: 231px;
 }
@@ -22,9 +22,9 @@
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.19;
-  color: var(--colroTextLink);
+  color: $colroTextLink;
 }
-.footer-logo-part {
+.footer__logo-part {
   display: flex;
   gap: 10px;
   font-family: "Raleway", serif;
@@ -32,42 +32,42 @@
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.19;
-  color: var(--colorTextSecondary);
+  color: $colorTextSecondary;
   padding-bottom: 20px;
 }
-.footer-address {
-  color: var(--colorTextSecondary);
+.footer__address {
+  color: $colorTextSecondary;
   text-decoration: none;
 }
-.footer-link {
-  color: var(--colorTextSecondary);
+.footer__link {
+  color: $colorTextSecondary;
 }
-.footer-text {
-  color: var(--colorTextSecondary);
+.footer__text {
+  color: $colorTextSecondary;
   margin-bottom: 9px;
 }
-.footer-mail {
+.footer__mail {
   margin-bottom: 9px;
 }
 
-.footer-social-box {
+.social {
   display: block;
-  color: var(--colorTextSecondary);
+  color: $colorTextSecondary;
 
   height: 100%;
   margin-left: 70px;
   font-weight: 700;
   margin-right: 93px;
 }
-.footer-social-title {
+.social__title {
   padding-bottom: 12px;
 }
-.footer-social-list {
+.social__list {
   display: flex;
   gap: 10px;
 }
 
-.footer-social-link {
+.social__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,41 +78,41 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-link:hover {
-  background-color: var(--colroTextLink);
+.social__link:hover {
+  background-color: $colroTextLink;
 }
-.footer-icon:hover {
-  fill: var(--colorTextSecondary);
+.footer__icon:hover {
+  fill: $colorTextSecondary;
 }
-.footer-icon {
+.footer__icon {
   width: 20px;
   height: 20px;
-  fill: var(--colorTextSecondary);
+  fill: $colorTextSecondary;
 
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
-.footer-ml-title {
+.ml__title {
   font-weight: 700;
   font-size: 14px;
-  color: var(--colorTextSecondary);
+  color: $colorTextSecondary;
   text-transform: uppercase;
   padding-bottom: 16px;
 }
-.footer-content {
+.footer__content {
   display: flex;
   border: 1px solid (255, 255, 255, 0.3);
   border-radius: 4px;
 }
-.subscribe-title {
+.subscribe__title {
   color: #ffffff;
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.footer-ml-mail {
+.ml__mail {
   border: 1px solid rgb(255, 255, 255, 0.3);
   border-radius: 4px;
   padding-left: 16px;
@@ -122,9 +122,9 @@
   padding-top: 25px;
   padding-bottom: 25px;
   height: 50px;
-  background-color: var(--colorTextFooterAndSections);
+  background-color: $colorTextFooterAndSections;
 }
-.footer-email-info {
+.email__info {
   color: rgb(255, 255, 255, 0.6);
 }
 .footer-item-box {
@@ -132,18 +132,18 @@
   justify-content: flex-end;
 }
 
-.subscribe-form {
+.subscribe__form {
   display: flex;
   flex-wrap: nowrap;
   gap: 12px;
 }
-.footer-email-info {
+.email__info {
   position: absolute;
   width: 0;
   height: 0;
   opacity: 0;
 }
-.footer-ml-button {
+.ml__button {
   display: flex;
   font-weight: 700;
   align-items: center;
@@ -152,8 +152,8 @@
   letter-spacing: 0.06em;
   border-radius: 4px;
   padding: 10px 28px;
-  background-color: var(--colroTextLink);
-  color: var(--colorTextSecondary);
+  background-color: $colroTextLink;
+  color: $colorTextSecondary;
   cursor: pointer;
   /* margin: auto; */
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -162,11 +162,11 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-ml-button:hover {
+.ml__button:hover {
   box-shadow: 2px 3px 4px 1px rgb(33, 150, 243, 0.5);
   background-color: #5097d1;
 }
-.footer-vector-ml {
+.vector__ml {
   margin-left: 10px;
   width: 24px;
   height: 24px;

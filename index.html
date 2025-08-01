@@ -23,36 +23,38 @@
   <body>
     <body class="is-hidden">
       <header class="header">
-        <div class="container header-container">
-          <a class="header-logo" href="#"
-            >Web<span class="header-logo-part">Studio</span></a
+        <div class="container header__container">
+          <a class="logo" href="#"
+            >Web<span class="header__logo-part">Studio</span></a
           >
           <nav class="nav">
-            <ul class="nav-list">
-              <li class="nav-item"><a class="nav-link" href="#">Студія</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href="./src/pages/portfolio.html"
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a class="nav__link" href="#">Студія</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="./src/pages/portfolio.html"
                   >Портфоліо</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Контакти</a>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Контакти</a>
               </li>
             </ul>
           </nav>
           <ul class="contacts">
-            <li class="contacts-item">
-              <a class="contacts-link" href="mailto:info@devstudio.com">
-                <svg class="contacts-icon">
+            <li class="contacts__item">
+              <a class="contacts__link" href="mailto:info@devstudio.com">
+                <svg class="contacts__icon">
                   <use
                     href="./src/imges/feachers/icons.svg#icon-mail"
                   ></use></svg
                 >info@devstudio.com</a
               >
             </li>
-            <li class="contacts-item">
-              <a class="contacts-link" href="tel:+380961111111"
-                ><svg class="contacts-icon-phone">
+            <li class="contacts__item">
+              <a class="contacts__link" href="tel:+380961111111"
+                ><svg class="contacts__icon-phone">
                   <use
                     href="./src/imges/feachers/icons.svg#icon-phone"
                   ></use></svg
@@ -64,16 +66,14 @@
       </header>
       <main class="main">
         <section class="hero">
-          <div class="container hero-container">
-            <h1 class="hero-title">
+          <div class="container hero__container">
+            <h1 class="hero__title">
               Ефективні рішення для
-              <span class="hero-title-part">вашого бізнесу</span>
+              <span class="hero__title-part">вашого бізнесу</span>
             </h1>
-            <div class="hero-box">
-              <button class="hero-button" data-modal-open>
-                Замовити послуги
-              </button>
-            </div>
+
+            <button class="button" data-modal-open>Замовити послуги</button>
+
             <div class="backdrop is-hidden" data-modal>
               <div class="modal">
                 <div class="modal-vector-box">
@@ -163,34 +163,34 @@
             </div>
           </div>
         </section>
-        <section class="feachers">
+        <section class="section section--feachers">
           <div class="container">
             <h2 hidden>Переваги</h2>
-            <ul class="feachers-list">
-              <li data-aos="flip-left" class="feachers-item">
-                <h3 class="feachers-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                <p class="feachers-text">
+            <ul class="feachers__list">
+              <li data-aos="flip-left" class="feachers__item">
+                <h3 class="feachers__title">УВАГА ДО ДЕТАЛЕЙ</h3>
+                <p class="feachers__text">
                   Ідейні міркування, і навіть початок повсякденної роботи з
                   формування позиції.
                 </p>
               </li>
-              <li data-aos="flip-right" class="feachers-item">
-                <h3 class="feachers-title">ПУНКТУАЛЬНІСТЬ</h3>
-                <p class="feachers-text">
+              <li data-aos="flip-right" class="feachers__item">
+                <h3 class="feachers__title">ПУНКТУАЛЬНІСТЬ</h3>
+                <p class="feachers__text">
                   Завдання організації, особливо рамки і місце навчання кадрів
                   тягне у себе.
                 </p>
               </li>
-              <li data-aos="flip-left" class="feachers-item">
-                <h3 class="feachers-title">ПЛАНУВАННЯ</h3>
-                <p class="feachers-text">
+              <li data-aos="flip-left" class="feachers__item">
+                <h3 class="feachers__title">ПЛАНУВАННЯ</h3>
+                <p class="feachers__text">
                   Так само консультація з широким активом значною мірою
                   зумовлює.
                 </p>
               </li>
-              <li data-aos="flip-right" class="feachers-item">
-                <h3 class="feachers-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                <p class="feachers-text">
+              <li data-aos="flip-right" class="feachers__item">
+                <h3 class="feachers__title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                <p class="feachers__text">
                   Значимість цих проблем настільки очевидна, що реалізація
                   планових завдань.
                 </p>
@@ -198,85 +198,85 @@
             </ul>
           </div>
         </section>
-        <section class="work">
+        <section class="section">
           <div class="container">
-            <h2 class="work-title">Чим ми займаємося</h2>
-            <ul class="work-list">
-              <li data-aos="zoom-in" class="work-item">
+            <h2 class="work__title">Чим ми займаємося</h2>
+            <ul class="work__list">
+              <li data-aos="zoom-in" class="work__item">
                 <img
-                  class="work-img"
+                  class="work__img"
                   src="./src/imges/work/coding.webp"
                   alt="код"
                 />
-                <h3 class="work-subtitle">Десктопні додатки</h3>
+                <h3 class="work__subtitle">Десктопні додатки</h3>
               </li>
-              <li data-aos="zoom-in" class="work-item">
+              <li data-aos="zoom-in" class="work__item">
                 <img
-                  class="work-img"
+                  class="work__img"
                   src="./src/imges/work/phone.webp"
                   alt="телефон"
                 />
-                <h3 class="work-subtitle">Мобільні додатки</h3>
+                <h3 class="work__subtitle">Мобільні додатки</h3>
               </li>
-              <li data-aos="zoom-in" class="work-item">
+              <li data-aos="zoom-in" class="work__item">
                 <img
-                  class="work-img"
+                  class="work__img"
                   src="./src/imges/work/graphic-disagne.webp"
                   alt="планшет"
                 />
-                <h3 class="work-subtitle">Дизайнерські рішення</h3>
+                <h3 class="work__subtitle">Дизайнерські рішення</h3>
               </li>
             </ul>
           </div>
         </section>
-        <section class="team">
+        <section class="section section--team">
           <div class="container">
-            <h2 class="team-title">Наша команда</h2>
-            <ul class="team-list">
-              <li class="team-item">
+            <h2 class="team__title">Наша команда</h2>
+            <ul class="team__list">
+              <li class="team__item">
                 <article data-aos="fade-up" class="teammate">
-                  <div class="team-div">
+                  <div class="team__div">
                     <img
-                      class="team-img"
+                      class="team__img"
                       src="./src/imges/team/igor-dimianenko.webp"
                       alt="ігор дем'яненко"
                       width="270"
                       height="260"
                     />
                   </div>
-                  <h3 class="teammate-name">Ігор Дем'яненко</h3>
-                  <p class="teammate-role">Product Designer</p>
-                  <ul class="social-list">
-                    <li class="social-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                  <h3 class="teammate__name">Ігор Дем'яненко</h3>
+                  <p class="teammate__role">Product Designer</p>
+                  <ul class="social">
+                    <li class="social__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-instagram"
                           ></use>
                         </svg>
                       </a>
                     </li>
-                    <li class="social-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                    <li class="social__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-twitter"
                           ></use>
                         </svg>
                       </a>
                     </li>
-                    <li class="social-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                    <li class="social__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-facebook"
                           ></use>
                         </svg>
                       </a>
                     </li>
-                    <li class="socail-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                    <li class="socail__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-linkedin"
                           ></use>
@@ -286,9 +286,9 @@
                   </ul>
                 </article>
               </li>
-              <li class="team-item">
+              <li class="team__item">
                 <article data-aos="fade-up" class="teammate">
-                  <div class="teammate-photo">
+                  <div class="teammate__photo">
                     <img
                       class="teammate-img"
                       src="./src/imges/team/olga-repina.webp"
@@ -297,39 +297,39 @@
                       height="260"
                     />
                   </div>
-                  <h3 class="teammate-name">Ольга Рєпіна</h3>
-                  <p class="teammate-role">Frontend Developer</p>
-                  <ul class="social-list">
-                    <li class="social-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                  <h3 class="teammate__name">Ольга Рєпіна</h3>
+                  <p class="teammate__role">Frontend Developer</p>
+                  <ul class="social">
+                    <li class="social__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-instagram"
                           ></use>
                         </svg>
                       </a>
                     </li>
-                    <li class="social-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                    <li class="social__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-twitter"
                           ></use>
                         </svg>
                       </a>
                     </li>
-                    <li class="social-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                    <li class="social__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-facebook"
                           ></use>
                         </svg>
                       </a>
                     </li>
-                    <li class="socail-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                    <li class="socail__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-linkedin"
                           ></use>
@@ -339,50 +339,50 @@
                   </ul>
                 </article>
               </li>
-              <li class="team-item">
+              <li class="team__item">
                 <article data-aos="fade-up" class="teammate">
-                  <div class="teammate-photo">
+                  <div class="teammate__photo">
                     <img
-                      class="teammate-img"
+                      class="teammate__img"
                       src="./src/imges/team/makola-tarasov.webp"
                       alt="микола тарасов"
                       width="270"
                       height="260"
                     />
                   </div>
-                  <h3 class="teammate-name">Микола Тарасов</h3>
-                  <p class="teammate-role">Marketing</p>
-                  <ul class="social-list">
-                    <li class="social-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                  <h3 class="teammate__name">Микола Тарасов</h3>
+                  <p class="teammate__role">Marketing</p>
+                  <ul class="social">
+                    <li class="social__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-instagram"
                           ></use>
                         </svg>
                       </a>
                     </li>
-                    <li class="social-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                    <li class="social__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-twitter"
                           ></use>
                         </svg>
                       </a>
                     </li>
-                    <li class="social-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                    <li class="social__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-facebook"
                           ></use>
                         </svg>
                       </a>
                     </li>
-                    <li class="socail-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                    <li class="socail__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-linkedin"
                           ></use>
@@ -392,50 +392,50 @@
                   </ul>
                 </article>
               </li>
-              <li class="team-item">
+              <li class="team__item">
                 <article data-aos="fade-up" class="teammate">
-                  <div class="teammate-photo">
+                  <div class="teammate__photo">
                     <img
-                      class="team-img"
+                      class="team__img"
                       src="./src/imges/team/mickailo-yermakov.webp"
                       alt="михайло єрмаков"
                       width="270"
                       height="260"
                     />
                   </div>
-                  <h3 class="teammate-name">Михайло Єрмаков</h3>
-                  <p class="teammate-role">UI Designer</p>
-                  <ul class="social-list">
-                    <li class="social-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                  <h3 class="teammate__name">Михайло Єрмаков</h3>
+                  <p class="teammate__role">UI Designer</p>
+                  <ul class="social">
+                    <li class="social__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-instagram"
                           ></use>
                         </svg>
                       </a>
                     </li>
-                    <li class="social-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                    <li class="social__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-twitter"
                           ></use>
                         </svg>
                       </a>
                     </li>
-                    <li class="social-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                    <li class="social__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-facebook"
                           ></use>
                         </svg>
                       </a>
                     </li>
-                    <li class="socail-item">
-                      <a href="#" class="social-link">
-                        <svg class="teammate-icon">
+                    <li class="socail__item">
+                      <a href="#" class="social__link">
+                        <svg class="social__icon">
                           <use
                             href="./src/imges/feachers/icons.svg#icon-linkedin"
                           ></use>
@@ -448,40 +448,40 @@
             </ul>
           </div>
         </section>
-        <section class="clients">
+        <section class="section">
           <div class="container">
-            <div class="clients-box">
-              <a class="clients-title">Постійні клієнти</a>
+            <div class="clients__box">
+              <a class="clients__title">Постійні клієнти</a>
             </div>
-            <ul class="clients-list">
-              <li class="clients-item">
-                <a class="clients-item-box">
-                  <svg class="clients-item-icon">
+            <ul class="clients__list">
+              <li class="clients__item">
+                <a class="clients__item-box">
+                  <svg class="clients__item-icon">
                     <use href="./src/imges/feachers/icons.svg#icon-yaco"></use>
                   </svg>
                 </a>
               </li>
-              <li class="clients-item">
-                <a class="clients-item-box">
-                  <svg class="clients-item-icon">
+              <li class="clients__item">
+                <a class="clients__item-box">
+                  <svg class="clients__item-icon">
                     <use
                       href="./src/imges/feachers/icons.svg#icon-taglinehere"
                     ></use>
                   </svg>
                 </a>
               </li>
-              <li class="clients-item">
-                <a class="clients-item-box">
-                  <svg class="clients-item-icon">
+              <li class="clients__item">
+                <a class="clients__item-box">
+                  <svg class="clients__item-icon">
                     <use
                       href="./src/imges/feachers/icons.svg#icon-orange"
                     ></use>
                   </svg>
                 </a>
               </li>
-              <li class="clients-item">
-                <a class="clients-item-box">
-                  <svg class="clients-item-icon">
+              <li class="clients__item">
+                <a class="clients__item-box">
+                  <svg class="clients__item-icon">
                     <use
                       href="./src/imges/feachers/icons.svg#icon-forestpeters"
                     ></use>
@@ -489,15 +489,15 @@
                 </a>
               </li>
               <li class="clients-item">
-                <a class="clients-item-box">
-                  <svg class="clients-item-icon">
+                <a class="clients__item-box">
+                  <svg class="clients__item-icon">
                     <use href="./src/imges/feachers/icons.svg#icon-brand"></use>
                   </svg>
                 </a>
               </li>
-              <li class="clients-item">
-                <a class="clients-item-box">
-                  <svg class="clients-item-icon">
+              <li class="clients__item">
+                <a class="clients__item-box">
+                  <svg class="clients__item-icon">
                     <use
                       href="./src/imges/feachers/icons.svg#icon-tagline"
                     ></use>
@@ -509,61 +509,61 @@
         </section>
       </main>
       <footer class="footer">
-        <div class="container footer-container">
-          <div class="footer-policy-box">
-            <a class="footer-logo" href="./index.html"
-              >Web<span class="footer-logo-part">Studio</span></a
+        <div class="container footer__container">
+          <div class="policy">
+            <a class="logo footer--logo" href="./index.html"
+              >Web<span class="logo__part footer__logo-part">Studio</span></a
             >
-            <address class="footer-address">
-              <p class="footer-text">м-Київ, пр-т Лесі Українки,26</p>
-              <ul class="footer-list">
-                <li class="footer-item">
-                  <a class="footer-link" href="mailto:info@devstudio.com"
+            <address class="footer__address">
+              <p class="footer__text">м-Київ, пр-т Лесі Українки,26</p>
+              <ul class="footer__list">
+                <li class="footer__item">
+                  <a class="footer__link" href="mailto:info@devstudio.com"
                     >info@devstudio.com</a
                   >
                 </li>
                 <li>
-                  <a class="footer-link" href="tel:+380961111111"
+                  <a class="footer__link" href="tel:+380961111111"
                     >+38 096 111 11 11</a
                   >
                 </li>
               </ul>
             </address>
           </div>
-          <div class="footer-social-box">
-            <h2 class="footer-social-title">приєднуйтесь</h2>
+          <div class="social">
+            <h2 class="social__title">приєднуйтесь</h2>
 
-            <ul class="footer-social-list">
-              <li class="footer-social-item">
-                <a href="#" class="footer-social-link">
-                  <svg class="footer-icon">
+            <ul class="social__list">
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <svg class="footer__icon">
                     <use
                       href="./src/imges/feachers/icons.svg#icon-instagram"
                     ></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer-social-item">
-                <a href="#" class="footer-social-link">
-                  <svg class="footer-icon">
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <svg class="footer__icon">
                     <use
                       href="./src/imges/feachers/icons.svg#icon-twitter"
                     ></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer-social-item">
-                <a href="#" class="footer-social-link">
-                  <svg class="footer-icon">
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <svg class="footer__icon">
                     <use
                       href="./src/imges/feachers/icons.svg#icon-facebook"
                     ></use>
                   </svg>
                 </a>
               </li>
-              <li class="footer-social-item">
-                <a href="#" class="footer-social-link">
-                  <svg class="footer-icon">
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <svg class="footer__icon">
                     <use
                       href="./src/imges/feachers/icons.svg#icon-linkedin"
                     ></use>
@@ -573,18 +573,18 @@
             </ul>
           </div>
           <div class="subscribe">
-            <h2 class="subscribe-title">Підпишіться на розсилку</h2>
-            <form class="subscribe-form">
-              <label class="footer-email-info" for="user_email">Пошта</label>
+            <h2 class="subscribe__title">Підпишіться на розсилку</h2>
+            <form class="subscribe__form">
+              <label class="email__info" for="user_email">Пошта</label>
               <input
                 placeholder="E-mail"
-                class="footer-ml-mail"
+                class="ml__mail"
                 type="email"
                 id="user_email"
               />
-              <button type="submit" class="footer-ml-button">
+              <button type="submit" class="ml__button">
                 Підписатися
-                <svg class="footer-vector-ml">
+                <svg class="vector__ml">
                   <use
                     href="./src/imges/modal-img/symbol-defs.svg#icon-telegram"
                   ></use>

@@ -1,63 +1,63 @@
-.feachers {
+.section--feachers {
   padding-top: 94px;
 }
 
-.feachers-list {
+.feachers__list {
   display: flex;
   flex-wrap: nowrap;
   column-gap: 30px;
 }
-.feachers-item::before {
+.feachers__item::before {
   content: "";
   display: block;
   height: 120px;
-  background-color: var(--colorTextWhite);
+  background-color: $colorTextWhite;
   margin-bottom: 30px;
   background-image: url(../imges/feachers/radio-station.svg);
   border-radius: 4px;
   background-position: center;
 }
-.feachers-item:nth-child(2)::before {
+.feachers__item:nth-child(2)::before {
   content: "";
   display: block;
   height: 120px;
-  background-color: var(--colorTextWhite);
+  background-color: $colorTextWhite;
   margin-bottom: 30px;
   background-image: url(../imges/feachers/timer.svg);
   border-radius: 4px;
   background-position: center;
 }
-.feachers-item:nth-child(3)::before {
+.feachers__item:nth-child(3)::before {
   content: "";
   display: block;
   height: 120px;
-  background-color: var(--colorTextWhite);
+  background-color: $colorTextWhite;
   margin-bottom: 30px;
   background-image: url(../imges/feachers/cmputer.svg);
   border-radius: 4px;
   background-position: center;
 }
-.feachers-item:nth-child(4)::before {
+.feachers__item:nth-child(4)::before {
   content: "";
   display: block;
   height: 120px;
-  background-color: var(--colorTextWhite);
+  background-color: $colorTextWhite;
   margin-bottom: 30px;
   background-image: url(../imges/feachers/astronaut.svg);
   border-radius: 4px;
   background-position: center;
 }
-.feachers-title {
+.feachers__title {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.feachers-text {
+.feachers__text {
   padding-top: 10px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71429;
   letter-spacing: 0.03em;
-  color: var(--colorTextPrimary);
+  color: $colorTextPrimary;
 }

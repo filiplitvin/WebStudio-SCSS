@@ -1,0 +1,48 @@
+.contacts {
+  display: flex;
+  gap: 93px;
+  justify-content: flex-end;
+  margin: 0px 50px;
+}
+.contacts__icon {
+  width: 16px;
+  height: 12px;
+  fill: $colorTextPrimary;
+  margin-right: 10px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts__icon:hover {
+  fill: $colroTextLink;
+  cursor: pointer;
+}
+.contacts__link {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts__link:hover {
+  color: $colroTextLink;
+  cursor: pointer;
+}
+.contacts__link:hover .contacts__icon {
+  fill: $colroTextLink;
+  cursor: pointer;
+}
+.contacts__link:hover .contacts__icon-phone {
+  fill: $colroTextLink;
+  cursor: pointer;
+}
+.contacts__icon-phone {
+  width: 10px;
+  height: 16px;
+  fill: $colorTextPrimary;
+  margin-right: 10px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts__icon-phone:hover {
+  fill: $colroTextLink;
+}

@@ -1,6 +1,6 @@
 .project {
   border-width: 0px 1px 1px 1px;
-  border-color: var(--colorTextartiles);
+  border-color: $colorTextartiles;
   border-style: solid;
   transition-property: box-shadow;
   transition-duration: 250ms;
@@ -28,7 +28,7 @@
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: var(--colorTextPrimary);
+  color: $colorTextPrimary;
   padding-top: 4px;
   margin-bottom: 20px;
   padding-left: 24px;
@@ -38,7 +38,7 @@
   max-width: 370px;
   max-height: 294px;
   background-color: rgba(33, 149, 243, 0.9);
-  color: var(--colorTextSecondary);
+  color: $colorTextSecondary;
   font-size: 18px;
   font-weight: 400;
   padding-top: 63px;
@@ -47,6 +47,6 @@
   padding-right: 24px;
 }
 .portfolio-item {
-  color: var(--colorTextWords);
+  color: $colorTextWords;
   flex-basis: calc((100% - 60px) / 3);
 }

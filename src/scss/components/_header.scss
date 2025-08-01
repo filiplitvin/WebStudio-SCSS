@@ -1,4 +1,4 @@
-.header-container {
+.header__container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,28 +7,22 @@
   padding-top: 24px;
   padding-bottom: 25px;
   border-width: 0px 0px 1px 0px;
-  border-color: var(--colorTextartiles);
+  border-color: $colorTextartiles;
   border-style: solid;
 }
 
-.header-link {
-  color: var(--colorTextWords);
-}
-.header-link:hover {
-  color: var(--colroTextLink);
-}
-.header-logo {
+.logo {
   font-family: "Raleway", serif;
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.19;
-  color: var(--colroTextLink);
+  color: $colroTextLink;
   display: flex;
   justify-content: flex-start;
 }
-.header-logo-part {
-  color: var(--colorTextWords);
+.header__logo-part {
+  color: $colorTextWords;
   display: flex;
   margin-right: 93px;
   justify-content: flex-start;

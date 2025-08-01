@@ -46,8 +46,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-box:hover {
-  border: 1px solid var(--colroTextLink);
-  fill: var(--colroTextLink);
+  border: 1px solid $colroTextLink;
+  fill: $colroTextLink;
 }
 .modal-info {
   color: #757575;
@@ -73,7 +73,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-vector:hover {
-  fill: var(--colroTextLink);
+  fill: $colroTextLink;
   cursor: pointer;
 }
 .btn-close {
@@ -91,7 +91,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-close:hover {
-  fill: var(--colroTextLink);
+  fill: $colroTextLink;
   cursor: pointer;
 }
 .modal-policy {
@@ -111,9 +111,9 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-info-policy:hover {
-  color: var(--colroTextLink);
+  color: $colroTextLink;
   cursor: pointer;
-  border-bottom: 1px solid var(--colroTextLink);
+  border-bottom: 1px solid $colroTextLink;
 }
 .button-modal-submit {
   display: flex;
@@ -123,8 +123,8 @@
   letter-spacing: 0.06em;
   border-radius: 4px;
   padding: 10px 32px;
-  background-color: var(--colroTextLink);
-  color: var(--colorTextSecondary);
+  background-color: $colroTextLink;
+  color: $colorTextSecondary;
   cursor: pointer;
   margin: auto;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);

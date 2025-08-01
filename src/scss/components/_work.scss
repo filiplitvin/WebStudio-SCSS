@@ -1,15 +1,16 @@
-.work-title {
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.work__title {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
   padding-bottom: 50px;
 }
-.work {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.work-list {
+
+.work__list {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -17,14 +18,14 @@
   list-style-type: none;
   flex-wrap: wrap;
 }
-.work-item {
+.work__item {
   position: relative;
 }
-.work-subtitle {
+.work__subtitle {
   position: absolute;
   bottom: 0;
   width: 100%;
-  color: var(--colorTextSecondary);
+  color: $colorTextSecondary;
   background-color: rgb(47, 48, 58, 0.8);
   padding-top: 27px;
   padding-bottom: 27px;

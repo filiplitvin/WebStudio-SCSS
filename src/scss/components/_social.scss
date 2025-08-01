@@ -1,13 +1,13 @@
-.social-list {
+.social {
   display: flex;
   gap: 10px;
   justify-content: center;
 }
-.social-item {
+.social__item {
   display: flex;
   justify-content: center;
 }
-.social-link {
+.social__link {
   display: flex;
   width: 44px;
   height: 44px;
@@ -15,9 +15,9 @@
   justify-content: center;
   align-items: center;
 }
-.social-link:hover {
-  background-color: var(--colroTextLink);
+.social__link:hover {
+  background-color: $colroTextLink;
 }
-.social-link:hover .teammate-icon {
-  fill: var(--colorTextSecondary);
+.social__link:hover .teammate-icon {
+  fill: $colorTextSecondary;
 }
