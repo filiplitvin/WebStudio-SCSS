@@ -50,7 +50,7 @@
   margin-bottom: 9px;
 }
 
-.social {
+.join {
   display: block;
   color: $colorTextSecondary;
 
@@ -62,7 +62,7 @@
 .social__title {
   padding-bottom: 12px;
 }
-.social__list {
+.social {
   display: flex;
   gap: 10px;
 }
@@ -77,13 +77,11 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    background-color: $colroTextLink;
+  }
 }
-.social__link:hover {
-  background-color: $colroTextLink;
-}
-.footer__icon:hover {
-  fill: $colorTextSecondary;
-}
+
 .footer__icon {
   width: 20px;
   height: 20px;
@@ -93,6 +91,9 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  :hover {
+    fill: $colorTextSecondary;
+  }
 }
 .ml__title {
   font-weight: 700;
@@ -161,11 +162,12 @@
   transition-property: box-shadow, background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    box-shadow: 2px 3px 4px 1px rgb(33, 150, 243, 0.5);
+    background-color: #5097d1;
+  }
 }
-.ml__button:hover {
-  box-shadow: 2px 3px 4px 1px rgb(33, 150, 243, 0.5);
-  background-color: #5097d1;
-}
+
 .vector__ml {
   margin-left: 10px;
   width: 24px;

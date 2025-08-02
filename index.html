@@ -76,24 +76,24 @@
 
             <div class="backdrop is-hidden" data-modal>
               <div class="modal">
-                <div class="modal-vector-box">
+                <div class="modal__vector-box">
                   <button class="btn-close" data-modal-close>
-                    <svg class="modal-vector-close">
+                    <svg class="modal__vector-close">
                       <use
                         href="./src/imges/modal-img/symbol-defs.svg#icon-crose"
                       ></use>
                     </svg>
                   </button>
                 </div>
-                <h2 class="modal-title">
+                <h2 class="modal__title">
                   Залиште свої дані, ми вам передзвонимо
                 </h2>
                 <form class="modal-content">
-                  <div class="form-field">
-                    <label class="modal-info" for="username">Ім'я</label>
-                    <div class="modal-box">
+                  <div class="form__field">
+                    <label class="form__info" for="username">Ім'я</label>
+                    <div class="form__box">
                       <!-- SVG -->
-                      <svg class="modal-vector">
+                      <svg class="form__vector">
                         <use
                           href="./src/imges/modal-img/symbol-defs.svg#icon-person"
                         ></use>
@@ -101,23 +101,23 @@
                       <input id="username" type="text" class="modal-content" />
                     </div>
                   </div>
-                  <div class="form-field">
-                    <label class="modal-info" for="user_tel">Телефон</label>
-                    <div class="modal-box">
+                  <div class="form__field">
+                    <label class="form__info" for="user_tel">Телефон</label>
+                    <div class="form__box">
                       <!-- SVG -->
-                      <svg class="modal-vector">
+                      <svg class="form__vector">
                         <use
                           href="./src/imges/modal-img/symbol-defs.svg#icon-phone"
                         ></use>
                       </svg>
-                      <input id="user_tel" type="tel" class="modal-content" />
+                      <input id="user_tel" type="tel" class="form__content" />
                     </div>
                   </div>
-                  <div class="form-field">
-                    <label class="modal-info" for="user_mail">Пошта</label>
-                    <div class="modal-box">
+                  <div class="form__field">
+                    <label class="form__info" for="user_mail">Пошта</label>
+                    <div class="form__box">
                       <!-- SVG -->
-                      <svg class="modal-vector">
+                      <svg class="form__vector">
                         <use
                           href="./src/imges/modal-img/symbol-defs.svg#icon-email"
                         ></use>
@@ -125,31 +125,31 @@
                       <input
                         id="user_mail"
                         type="email"
-                        class="modal-content"
+                        class="form__content"
                       />
                     </div>
                   </div>
-                  <div class="form-field">
-                    <label class="modal-info" for="user_comment"
+                  <div class="form__field">
+                    <label class="form__info" for="user_comment"
                       >Коментар</label
                     >
                   </div>
-                  <div class="modal-box">
+                  <div class="form__box">
                     <textarea
                       name="comment"
                       id="user_comment"
-                      class="modal-content modal-comment"
+                      class="form__content form__comment"
                       placeholder="Введіть текст"
                     ></textarea>
                   </div>
-                  <div class="modal-policy-box">
-                    <label class="modal-policy">
-                      <input type="checkbox" class="modal-policy-checkbox" />
+                  <div class="form__policy-box">
+                    <label class="form__policy">
+                      <input type="checkbox" class="modal__policy-checkbox" />
                       Погоджуюся з розсилкою та приймаю
-                      <a class="modal-info-policy">Умови договору</a>
+                      <a class="modal__info-policy">Умови договору</a>
                     </label>
                   </div>
-                  <div class="button-submit-box">
+                  <div class="button__submit-box">
                     <button
                       class="button-modal-submit"
                       data-modal-close
@@ -163,7 +163,7 @@
             </div>
           </div>
         </section>
-        <section class="section section--feachers">
+        <section class="feachers">
           <div class="container">
             <h2 hidden>Переваги</h2>
             <ul class="feachers__list">
@@ -198,7 +198,7 @@
             </ul>
           </div>
         </section>
-        <section class="section">
+        <section class="work">
           <div class="container">
             <h2 class="work__title">Чим ми займаємося</h2>
             <ul class="work__list">
@@ -229,7 +229,7 @@
             </ul>
           </div>
         </section>
-        <section class="section section--team">
+        <section class="team">
           <div class="container">
             <h2 class="team__title">Наша команда</h2>
             <ul class="team__list">
@@ -448,7 +448,7 @@
             </ul>
           </div>
         </section>
-        <section class="section">
+        <section class="clients">
           <div class="container">
             <div class="clients__box">
               <a class="clients__title">Постійні клієнти</a>
@@ -530,10 +530,10 @@
               </ul>
             </address>
           </div>
-          <div class="social">
+          <div class="join">
             <h2 class="social__title">приєднуйтесь</h2>
 
-            <ul class="social__list">
+            <ul class="social">
               <li class="social__item">
                 <a href="#" class="social__link">
                   <svg class="footer__icon">

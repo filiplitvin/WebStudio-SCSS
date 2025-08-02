@@ -1,13 +1,8 @@
-.portfolio-container {
-  flex-direction: column;
-  align-items: center;
-  display: flex;
-}
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.portfolio-list {
+.portfolio__list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

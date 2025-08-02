@@ -32,10 +32,10 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-title {
+.modal__title {
   padding-top: 40px;
 }
-.modal-box {
+.form__box {
   max-width: 448px;
   min-height: 40px;
   display: flex;
@@ -44,26 +44,27 @@
   transition-property: border, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    border: 1px solid $colroTextLink;
+    fill: $colroTextLink;
+  }
 }
-.modal-box:hover {
-  border: 1px solid $colroTextLink;
-  fill: $colroTextLink;
-}
-.modal-info {
+
+.form__info {
   color: #757575;
 }
-.modal-comment {
+.form__comment {
   padding-top: 12px;
   padding-left: 16px;
   color: rgb(117, 117, 117, 0.5);
   width: 448px;
   height: 120px;
 }
-.modal-vector-close {
+.modal__vector-close {
   width: 18px;
   height: 18px;
 }
-.modal-vector {
+.form__vector {
   margin-top: 11px;
   margin-left: 12px;
   width: 18px;
@@ -71,11 +72,12 @@
   transition-property: fill, cursor;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    fill: $colroTextLink;
+    cursor: pointer;
+  }
 }
-.modal-vector:hover {
-  fill: $colroTextLink;
-  cursor: pointer;
-}
+
 .btn-close {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
@@ -89,12 +91,13 @@
   transition-property: cursor, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    fill: $colroTextLink;
+    cursor: pointer;
+  }
 }
-.btn-close:hover {
-  fill: $colroTextLink;
-  cursor: pointer;
-}
-.modal-policy {
+
+.form__policy {
   margin-top: 20px;
   color: #757575;
 }
@@ -103,18 +106,19 @@
   justify-content: center;
   align-items: center;
 }
-.modal-info-policy {
+.modal__info-policy {
   margin-top: 20px;
   color: #757575;
   transition-property: color, border-bottom, cursor;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: $colroTextLink;
+    cursor: pointer;
+    border-bottom: 1px solid $colroTextLink;
+  }
 }
-.modal-info-policy:hover {
-  color: $colroTextLink;
-  cursor: pointer;
-  border-bottom: 1px solid $colroTextLink;
-}
+
 .button-modal-submit {
   display: flex;
   font-weight: 700;
@@ -133,10 +137,11 @@
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    box-shadow: 0px 4px 4px 0px #2195f36d;
+  }
 }
-.button-modal-submit:hover {
-  box-shadow: 0px 4px 4px 0px #2195f36d;
-}
+
 .no-scroll {
   overflow: hidden;
 }
