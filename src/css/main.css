@@ -236,14 +236,10 @@ body {
   letter-spacing: 0.06em;
   border-radius: 4px;
   padding: 10px 32px;
-  background-color: #2196f3;
-  color: #ffffff;
   cursor: pointer;
   margin: auto;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition-property: box-shadow, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover {
   box-shadow: 2px 3px 4px 1px rgba(33, 150, 243, 0.5);
@@ -328,8 +324,6 @@ body {
   width: 18px;
   height: 18px;
   transition-property: fill, cursor;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form__vector:hover {
   fill: #2196f3;
@@ -387,16 +381,12 @@ body {
   letter-spacing: 0.06em;
   border-radius: 4px;
   padding: 10px 32px;
-  background-color: #2196f3;
-  color: #ffffff;
   cursor: pointer;
   margin: auto;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin-top: 30px;
   margin-bottom: 40px;
   transition-property: box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-modal-submit:hover {
   box-shadow: 0px 4px 4px 0px rgba(33, 149, 243, 0.4274509804);
@@ -488,6 +478,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   padding-bottom: 50px;
+  color: #212121;
 }
 
 .work__list {
@@ -524,6 +515,7 @@ body {
 
 .team__title {
   margin-bottom: 50px;
+  color: #212121;
 }
 
 .team__list {
@@ -576,6 +568,7 @@ body {
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
+  color: #212121;
 }
 
 .social {
@@ -610,11 +603,6 @@ body {
   padding-bottom: 94px;
 }
 
-.clients__box {
-  display: flex;
-  justify-content: center;
-}
-
 .clients__list {
   display: flex;
   flex-direction: row;
@@ -645,8 +633,6 @@ body {
   width: 170px;
   height: 92px;
   transition-property: fill, border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients__item-icon:hover {
   fill: #2196f3;
@@ -658,6 +644,7 @@ body {
   padding-bottom: 50px;
   font-size: 36px;
   font-weight: 700;
+  color: #212121;
 }
 
 .footer {
@@ -704,16 +691,19 @@ body {
 
 .footer__address {
   color: #ffffff;
+  font-size: 14px;
   text-decoration: none;
 }
 
 .footer__link {
   color: #ffffff;
+  font-size: 14px;
 }
 
 .footer__text {
   color: #ffffff;
   margin-bottom: 9px;
+  font-size: 14px;
 }
 
 .footer__mail {
@@ -831,15 +821,11 @@ body {
   letter-spacing: 0.06em;
   border-radius: 4px;
   padding: 10px 28px;
-  background-color: #2196f3;
-  color: #ffffff;
   cursor: pointer;
   /* margin: auto; */
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   min-height: 50px;
   transition-property: box-shadow, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .ml__button:hover {
   box-shadow: 2px 3px 4px 1px rgba(33, 150, 243, 0.5);
@@ -872,8 +858,6 @@ body {
   background: #f5f4fa;
   padding: 6px 25px;
   transition-property: background-color, color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .filters__button:hover {
   background-color: #2196f3;
@@ -950,4 +934,20 @@ body {
 .portfolio__item {
   color: #000000;
   flex-basis: calc((100% - 60px) / 3);
+}
+
+.clients__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button, .form__vector, .button-modal-submit, .clients__item-icon, .ml__button, .filters__button {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button, .button-modal-submit, .ml__button {
+  background-color: #2196f3;
+  color: #ffffff;
 }

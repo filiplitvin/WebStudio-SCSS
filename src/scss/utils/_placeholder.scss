@@ -1,0 +1,13 @@
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%transition-set {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+%button-colors {
+  background-color: $colroTextLink;
+  color: $colorTextSecondary;
+}

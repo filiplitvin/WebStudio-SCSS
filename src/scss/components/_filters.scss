@@ -17,8 +17,9 @@
   background: $colorTextWhite;
   padding: 6px 25px;
   transition-property: background-color, color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  // transition-duration: 250ms;
+  // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %transition-set;
   &:hover {
     background-color: $colroTextLink;
     color: $colorTextSecondary;

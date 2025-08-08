@@ -37,14 +37,17 @@
 }
 .footer__address {
   color: $colorTextSecondary;
+  font-size: 14px;
   text-decoration: none;
 }
 .footer__link {
   color: $colorTextSecondary;
+  font-size: 14px;
 }
 .footer__text {
   color: $colorTextSecondary;
   margin-bottom: 9px;
+  font-size: 14px;
 }
 .footer__mail {
   margin-bottom: 9px;
@@ -153,15 +156,14 @@
   letter-spacing: 0.06em;
   border-radius: 4px;
   padding: 10px 28px;
-  background-color: $colroTextLink;
-  color: $colorTextSecondary;
+  @extend %button-colors;
   cursor: pointer;
   /* margin: auto; */
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   min-height: 50px;
   transition-property: box-shadow, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %transition-set;
+  @extend %button-colors;
   &:hover {
     box-shadow: 2px 3px 4px 1px rgb(33, 150, 243, 0.5);
     background-color: #5097d1;

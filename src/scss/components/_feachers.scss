@@ -48,6 +48,8 @@
   background-position: center;
 }
 .feachers__title {
+  // @include textcolor(#212121);
+  // ^ не працює я не знаю чого
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.03em;

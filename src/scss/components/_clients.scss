@@ -3,8 +3,7 @@
   padding-bottom: 94px;
 }
 .clients__box {
-  display: flex;
-  justify-content: center;
+  @extend %flex-center;
 }
 .clients__list {
   display: flex;
@@ -33,8 +32,7 @@
   width: 170px;
   height: 92px;
   transition-property: fill, border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %transition-set;
   &:hover {
     fill: $colroTextLink;
     cursor: pointer;
@@ -46,4 +44,5 @@
   padding-bottom: 50px;
   font-size: 36px;
   font-weight: 700;
+  color: $colorTextTitle;
 }

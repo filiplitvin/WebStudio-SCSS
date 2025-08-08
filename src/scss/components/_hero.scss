@@ -38,14 +38,12 @@
 
   border-radius: 4px;
   padding: 10px 32px;
-  background-color: $colroTextLink;
-  color: $colorTextSecondary;
+  @extend %button-colors;
   cursor: pointer;
   margin: auto;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   transition-property: box-shadow, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %transition-set;
   &:hover {
     box-shadow: 2px 3px 4px 1px rgb(33, 150, 243, 0.5);
     background-color: #5097d1;

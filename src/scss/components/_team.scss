@@ -5,6 +5,7 @@
 }
 .team__title {
   margin-bottom: 50px;
+  color: $colorTextTitle;
 }
 .team__list {
   display: flex;
@@ -51,4 +52,5 @@
   font-size: 36px;
   letter-spacing: 0.03em;
   text-align: center;
+  color: $colorTextTitle;
 }
