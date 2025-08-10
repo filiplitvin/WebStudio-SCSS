@@ -1,3 +1,4 @@
-@mixin textcolor($color) {
-  color: $color;
+@mixin fontSizeWeight($size, $weight) {
+  font-size: $size;
+  font-weight: $weight;
 }
