@@ -561,15 +561,15 @@ body {
 }
 
 .clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .clients__list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 30px;
-  padding-top: 50px;
 }
 
 .clients__item {
@@ -587,8 +587,8 @@ body {
   fill: #afb1b8;
   cursor: pointer;
   border: 1px solid #afb1b8;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding-left: 52px;
+  padding-right: 52px;
   padding-top: 16px;
   padding-bottom: 16px;
   border-radius: 6px;
@@ -603,8 +603,8 @@ body {
 }
 
 .clients__title {
-  padding-bottom: 50px;
-  font-size: 36px;
+  padding-bottom: 30px;
+  font-size: 28px;
   font-weight: 700;
   color: #212121;
 }
