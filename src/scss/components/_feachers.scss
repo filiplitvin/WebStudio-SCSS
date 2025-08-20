@@ -4,7 +4,7 @@
 
 .feachers__list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   column-gap: 30px;
 }
 .feachers__item::before {
@@ -48,6 +48,9 @@
   background-position: center;
 }
 .feachers__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: $colorTextTitle;
   font-weight: 700;
   font-size: 14px;
