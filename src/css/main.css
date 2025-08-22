@@ -231,7 +231,6 @@ body {
   transform: translateX(-50%) translateY(-50%);
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 12px;
   border-radius: 7px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.88);
   transition-property: transform;
@@ -572,7 +571,6 @@ body {
 }
 
 .clients__list {
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
@@ -927,7 +925,7 @@ body {
   flex-basis: calc((100% - 60px) / 3);
 }
 
-.clients__box {
+.clients__box, .clients__list {
   display: flex;
   justify-content: center;
   align-items: center;
