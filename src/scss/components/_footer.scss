@@ -1,5 +1,4 @@
 .footer {
-  align-items: baseline;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71429;
@@ -10,15 +9,20 @@
 }
 .footer__container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .policy {
   display: block;
   max-width: 231px;
+  padding-bottom: 60px;
 }
-.footer-logo {
+.footer--logo {
   display: flex;
+  padding-left: 39px;
   font-family: "Raleway", serif;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.19;
@@ -28,7 +32,7 @@
   display: flex;
   gap: 10px;
   font-family: "Raleway", serif;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.19;
@@ -36,6 +40,10 @@
   padding-bottom: 20px;
 }
 .footer__address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   color: $colorTextSecondary;
   font-size: 14px;
   text-decoration: none;
@@ -61,9 +69,11 @@
   margin-left: 70px;
   font-weight: 700;
   margin-right: 93px;
+  padding-bottom: 60px;
 }
 .social__title {
   padding-bottom: 12px;
+  margin-left: 30px;
 }
 .social {
   display: flex;
@@ -99,7 +109,7 @@
   }
 }
 .ml__title {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 14px;
   color: $colorTextSecondary;
   text-transform: uppercase;
@@ -115,14 +125,15 @@
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  margin-left: 122px;
 }
 .ml__mail {
   border: 1px solid rgb(255, 255, 255, 0.3);
   border-radius: 4px;
   padding-left: 16px;
   /* margin-top: 20px; */
-  width: 358px;
-  max-width: 358px;
+  width: 450px;
+  max-width: 450px;
   padding-top: 25px;
   padding-bottom: 25px;
   height: 50px;
@@ -138,7 +149,7 @@
 
 .subscribe__form {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 12px;
 }
 .email__info {
@@ -164,6 +175,7 @@
   transition-property: box-shadow, background-color;
   @extend %transition-set;
   @extend %button-colors;
+  margin-left: 122px;
   &:hover {
     box-shadow: 2px 3px 4px 1px rgb(33, 150, 243, 0.5);
     background-color: #5097d1;

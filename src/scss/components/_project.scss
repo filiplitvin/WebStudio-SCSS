@@ -5,6 +5,8 @@
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 450px;
+  min-height: 404px;
   &:hover {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   }
@@ -12,6 +14,10 @@
 .project__photo {
   position: relative;
   overflow: hidden;
+}
+.project__img {
+  width: 450px;
+  height: 294px;
 }
 .project__overlay {
   inset: 0;
@@ -23,6 +29,10 @@
 
 .project:hover .project__overlay {
   transform: translateX(0);
+}
+.project__title {
+  padding-top: 20px;
+  padding-left: 24px;
 }
 .project__text {
   font-weight: 400;
@@ -36,14 +46,14 @@
   padding-right: 24px;
 }
 .project__text-overlay {
-  max-width: 370px;
-  max-height: 294px;
+  min-width: 450px;
+  min-height: 294px;
   background-color: rgba(33, 149, 243, 0.9);
   color: $colorTextSecondary;
   font-size: 18px;
   font-weight: 400;
-  padding-top: 63px;
-  padding-bottom: 63px;
+  padding-top: 77px;
+  padding-bottom: 77px;
   padding-left: 24px;
   padding-right: 24px;
 }

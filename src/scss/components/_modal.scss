@@ -17,8 +17,8 @@
   background-color: #ffffff;
   position: absolute;
 
-  min-height: 581px;
-  min-width: 528px;
+  max-height: 609px;
+  max-width: 450px;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -33,6 +33,11 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 370px;
   padding-top: 40px;
 }
 .form__box {
@@ -121,11 +126,11 @@
 .button-modal-submit {
   display: flex;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  padding: 10px 32px;
+  padding: 10px 52px;
   @extend %button-colors;
   cursor: pointer;
   margin: auto;
