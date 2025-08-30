@@ -1,50 +1,70 @@
 .contacts {
-  display: flex;
-  gap: 93px;
-  justify-content: flex-end;
-  margin: 0px 50px;
+  display: none;
 }
-.contacts__icon {
-  width: 16px;
-  height: 12px;
-  fill: $colorTextPrimary;
-  margin-right: 10px;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover {
+.header__menu {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 767px) {
+  .contacts {
+    flex-direction: column;
+    margin: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 50px;
+  }
+
+  .contacts__icon {
+    width: 16px;
+    height: 12px;
+    fill: $colorTextPrimary;
+    margin-right: 10px;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+      fill: $colroTextLink;
+      cursor: pointer;
+    }
+  }
+
+  .contacts__link {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+      color: $colroTextLink;
+      cursor: pointer;
+    }
+  }
+
+  .contacts__link:hover .contacts__icon {
     fill: $colroTextLink;
     cursor: pointer;
   }
-}
-
-.contacts__link {
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover {
-    color: $colroTextLink;
+  .contacts__link:hover .contacts__icon-phone {
+    fill: $colroTextLink;
     cursor: pointer;
   }
+  .contacts__icon-phone {
+    width: 10px;
+    height: 16px;
+    fill: $colorTextPrimary;
+    margin-right: 10px;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    :hover {
+      fill: $colroTextLink;
+    }
+  }
 }
-
-.contacts__link:hover .contacts__icon {
-  fill: $colroTextLink;
-  cursor: pointer;
-}
-.contacts__link:hover .contacts__icon-phone {
-  fill: $colroTextLink;
-  cursor: pointer;
-}
-.contacts__icon-phone {
-  width: 10px;
-  height: 16px;
-  fill: $colorTextPrimary;
-  margin-right: 10px;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  :hover {
-    fill: $colroTextLink;
+@media (min-width: 1200px) {
+  .contacts {
+    flex-direction: row;
+    gap: 30px;
   }
 }

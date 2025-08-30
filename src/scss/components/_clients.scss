@@ -46,3 +46,17 @@
   font-weight: 700;
   color: $colorTextTitle;
 }
+@media (min-width: 768px) {
+  .clients__item-icon {
+    width: 226px;
+  }
+}
+@media (min-width: 1200px) {
+  .clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .clients__item-icon {
+    width: 170px;
+  }
+}

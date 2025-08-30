@@ -1,3 +1,6 @@
+.project__item {
+  max-width: 450px;
+}
 .project {
   border-width: 0px 1px 1px 1px;
   border-color: $colorTextartiles;
@@ -5,7 +8,8 @@
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  min-width: 450px;
+  width: 450px;
+  max-width: 450px;
   min-height: 404px;
   &:hover {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -15,16 +19,14 @@
   position: relative;
   overflow: hidden;
 }
-.project__img {
-  width: 450px;
-  height: 294px;
-}
+
 .project__overlay {
   inset: 0;
   position: absolute;
   transform: translateY(100%);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
 }
 
 .project:hover .project__overlay {
@@ -46,8 +48,8 @@
   padding-right: 24px;
 }
 .project__text-overlay {
-  min-width: 450px;
-  min-height: 294px;
+  width: 100%;
+  height: 100%;
   background-color: rgba(33, 149, 243, 0.9);
   color: $colorTextSecondary;
   font-size: 18px;
@@ -60,4 +62,20 @@
 .portfolio__item {
   color: $colorTextWords;
   flex-basis: calc((100% - 60px) / 3);
+}
+@media (min-width: 768px) {
+  .project__item {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+  .project {
+    width: 354px;
+  }
+}
+@media (min-width: 1200px) {
+  .portfolio {
+    padding-top: 94px;
+  }
+  .project {
+    width: 370px;
+  }
 }

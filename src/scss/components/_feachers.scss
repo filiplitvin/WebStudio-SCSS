@@ -15,6 +15,7 @@
   background-color: $colorTextWhite;
   margin-bottom: 30px;
   background-image: url(../imges/feachers/radio-station.svg);
+  background-repeat: no-repeat;
   border-radius: 4px;
   background-position: center;
 }
@@ -25,6 +26,7 @@
   background-color: $colorTextWhite;
   margin-bottom: 30px;
   background-image: url(../imges/feachers/timer.svg);
+  background-repeat: no-repeat;
   border-radius: 4px;
   background-position: center;
 }
@@ -35,6 +37,7 @@
   background-color: $colorTextWhite;
   margin-bottom: 30px;
   background-image: url(../imges/feachers/cmputer.svg);
+  background-repeat: no-repeat;
   border-radius: 4px;
   background-position: center;
 }
@@ -45,6 +48,7 @@
   background-color: $colorTextWhite;
   margin-bottom: 30px;
   background-image: url(../imges/feachers/astronaut.svg);
+  background-repeat: no-repeat;
   border-radius: 4px;
   background-position: center;
 }
@@ -66,4 +70,33 @@
   line-height: 1.71429;
   letter-spacing: 0.03em;
   color: $colorTextPrimary;
+}
+@media (min-width: 768px) {
+  .feachers__list {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+  .feachers__item::before {
+    max-width: 354px;
+  }
+  .feachers__title {
+    max-width: 354px;
+  }
+  .feachers__text {
+    max-width: 354px;
+  }
+}
+@media (min-width: 1200px) {
+  .feachers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .feachers__item::before {
+    max-width: 270px;
+  }
+  .feachers__title {
+    max-width: 270px;
+  }
+  .feachers__text {
+    max-width: 270px;
+  }
 }

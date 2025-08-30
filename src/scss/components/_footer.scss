@@ -10,7 +10,7 @@
 .footer__container {
   display: flex;
   justify-content: center;
-  align-items: center;
+
   flex-wrap: wrap;
 }
 
@@ -126,19 +126,28 @@
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  margin-left: 122px;
+  text-align: center;
 }
 .ml__mail {
   border: 1px solid rgb(255, 255, 255, 0.3);
   border-radius: 4px;
   padding-left: 16px;
   /* margin-top: 20px; */
-  width: 450px;
-  max-width: 450px;
+
   padding-top: 25px;
   padding-bottom: 25px;
   height: 50px;
   background-color: $colorTextFooterAndSections;
+}
+@media (min-width: 480px) {
+  .ml__mail {
+    width: 450px;
+  }
+}
+@media (min-width: 1200px) {
+  .ml__mail {
+    width: 358px;
+  }
 }
 .email__info {
   color: rgb(255, 255, 255, 0.6);
@@ -150,8 +159,8 @@
 
 .subscribe__form {
   display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+  flex-direction: column;
+  gap: 20px;
 }
 .email__info {
   position: absolute;
@@ -163,6 +172,7 @@
   display: flex;
   font-weight: 700;
   align-items: center;
+  align-self: center;
   font-size: 14px;
   line-height: 1.875;
   letter-spacing: 0.06em;
@@ -176,7 +186,6 @@
   transition-property: box-shadow, background-color;
   @extend %transition-set;
   @extend %button-colors;
-  margin-left: 122px;
   &:hover {
     box-shadow: 2px 3px 4px 1px rgb(33, 150, 243, 0.5);
     background-color: #5097d1;

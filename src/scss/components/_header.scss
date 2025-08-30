@@ -1,8 +1,3 @@
-.header__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .header {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -10,20 +5,47 @@
   border-color: $colorTextartiles;
   border-style: solid;
 }
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .logo {
   font-family: "Raleway", serif;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.19;
   color: $colroTextLink;
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 15px;
 }
 .header__logo-part {
   color: $colorTextWords;
-  display: flex;
-  justify-content: flex-start;
+}
+@media (min-width: 768px) {
+  .header {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+}
+@media (min-width: 768px) {
+  .logo {
+    font-size: 24px;
+    margin-right: 87px;
+  }
+  .header__menu {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+  .logo {
+    font-size: 26px;
+  }
+  .header__menu {
+    display: none;
+  }
 }
