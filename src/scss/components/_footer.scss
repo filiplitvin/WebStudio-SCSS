@@ -10,10 +10,13 @@
 .footer__container {
   display: flex;
   justify-content: center;
-
   flex-wrap: wrap;
 }
-
+@media (max-width: 480px) {
+  .footer__container {
+    max-width: 450px;
+  }
+}
 .policy {
   display: block;
   max-width: 231px;
@@ -21,7 +24,8 @@
 }
 .footer--logo {
   display: flex;
-  padding-left: 39px;
+  justify-content: center;
+  align-items: center;
   font-family: "Raleway", serif;
   font-size: 24px;
   font-weight: 700;
@@ -31,6 +35,8 @@
 }
 .footer__logo-part {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   font-family: "Raleway", serif;
   font-size: 24px;
@@ -38,7 +44,6 @@
   letter-spacing: 0.03em;
   line-height: 1.19;
   color: $colorTextSecondary;
-  padding-bottom: 20px;
 }
 .footer__address {
   display: flex;
@@ -57,6 +62,7 @@
   color: $colorTextSecondary;
   margin-bottom: 9px;
   font-size: 14px;
+  padding-top: 20px;
 }
 .footer__mail {
   margin-bottom: 9px;
@@ -65,20 +71,29 @@
 .join {
   display: block;
   color: $colorTextSecondary;
-
   height: 100%;
-  margin-left: 70px;
   font-weight: 700;
-  margin-right: 93px;
-  padding-bottom: 60px;
+}
+@media (min-width: 768px) {
+  .join {
+    margin-left: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .join {
+    margin-right: 94px;
+  }
 }
 .social__title {
   padding-bottom: 12px;
-  margin-left: 30px;
+  text-align: center;
 }
 .social {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
+  padding-bottom: 60px;
 }
 
 .social__link {

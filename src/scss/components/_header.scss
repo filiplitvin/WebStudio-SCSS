@@ -27,16 +27,15 @@
     padding-top: 26px;
     padding-bottom: 26px;
   }
-}
-@media (min-width: 768px) {
+  .header__container {
+    display: flex;
+    gap: 87px;
+  }
   .logo {
     font-size: 24px;
-    margin-right: 87px;
-  }
-  .header__menu {
-    display: none;
   }
 }
+
 @media (min-width: 1200px) {
   .header {
     padding-top: 24px;
@@ -44,8 +43,5 @@
   }
   .logo {
     font-size: 26px;
-  }
-  .header__menu {
-    display: none;
   }
 }

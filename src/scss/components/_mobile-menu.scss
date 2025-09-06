@@ -1,0 +1,37 @@
+@media (max-width: 767px) {
+  .mobile-menu__wrapp {
+    display: flex;
+    flex-direction: column;
+    background-color: $colorTextSecondary;
+    position: fixed;
+    inset: 0;
+    padding: 20px;
+    transform: translateX(-100%);
+    transition: transform 1s linear;
+  }
+  .mobile-menu__wrapp.is-open {
+    transform: translateX(0);
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-menu__wrapp {
+    display: flex;
+    flex-direction: row;
+    gap: 315px;
+  }
+  .mobile-menu__btn {
+    display: none;
+  }
+  .mobile-menu__check {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .mobile-menu__wrapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+  }
+}

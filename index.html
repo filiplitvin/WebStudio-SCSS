@@ -27,44 +27,65 @@
           <a class="logo" href="#"
             >Web<span class="header__logo-part">Studio</span></a
           >
-          <nav class="nav">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a class="nav__link" href="#">Студія</a>
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="./src/pages/portfolio.html"
-                  >Портфоліо</a
-                >
-              </li>
-              <li class="nav__item">
-                <a class="nav__link" href="#">Контакти</a>
-              </li>
-            </ul>
-          </nav>
-          <ul class="contacts">
-            <li class="contacts__item">
-              <a class="contacts__link" href="mailto:info@devstudio.com">
-                <svg class="contacts__icon">
-                  <use
-                    href="./src/imges/feachers/icons.svg#icon-mail"
-                  ></use></svg
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="contacts__item">
-              <a class="contacts__link" href="tel:+380961111111"
-                ><svg class="contacts__icon-phone">
-                  <use
-                    href="./src/imges/feachers/icons.svg#icon-phone"
-                  ></use></svg
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-          <button class="header__menu">
-            <img src="./src/imges/header_img/menu_40px.svg" alt="menu" />
-          </button>
+          <div class="mobile-menu">
+            <button class="mobile-menu__btn menu-btn" data-menu-btn>
+              <span class="menu-btn__line"></span>
+            </button>
+            <div class="mobile-menu__wrapp" data-menu>
+              <nav class="nav">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Студія</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="./src/pages/portfolio.html"
+                      >Портфоліо</a
+                    >
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link" href="#">Контакти</a>
+                  </li>
+                </ul>
+              </nav>
+              <ul class="contacts">
+                <li class="contacts__item">
+                  <a
+                    class="contacts__link contacts__link--mail"
+                    href="mailto:info@devstudio.com"
+                  >
+                    <svg class="contacts__icon">
+                      <use
+                        href="./src/imges/feachers/icons.svg#icon-mail"
+                      ></use></svg
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__link" href="tel:+380961111111"
+                    ><svg class="contacts__icon-phone">
+                      <use
+                        href="./src/imges/feachers/icons.svg#icon-phone"
+                      ></use></svg
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+              <ul class="socials">
+                <li class="socials__item">
+                  <a href="#" class="socials__link">Instagram</a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link">Twitter</a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link">Facebook</a>
+                </li>
+                <li class="socials__item">
+                  <a href="#" class="socials__link">LinkedIn</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </header>
       <main class="main">
@@ -599,6 +620,7 @@
         </div>
       </footer>
       <script type="module" src="./src/js/modal.js"></script>
+      <script type="module" src="./src/js/mobile-menu.js"></script>
       <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
         AOS.init();

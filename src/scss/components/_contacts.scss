@@ -1,27 +1,45 @@
-.contacts {
-  display: none;
+@media (max-width: 480px) {
+  .mobile-menu {
+    width: 40px;
+    height: 40px;
+  }
+  .contacts {
+    flex-direction: column-reverse;
+    margin: 0;
+    flex-wrap: wrap;
+    gap: 32px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 64px;
+  }
+  .contacts__link {
+    font-size: 34px;
+  }
+  .contacts__link--mail {
+    font-size: 24px;
+  }
+  .contacts__icon {
+    display: none;
+  }
+  .contacts__icon-phone {
+    display: none;
+  }
 }
-.header__menu {
-  width: 40px;
-  height: 40px;
-}
-
 @media (min-width: 767px) {
   .contacts {
-    flex-direction: column;
+    flex-direction: row;
     margin: 0;
     flex-wrap: wrap;
     gap: 10px;
     display: flex;
-    justify-content: flex-end;
-    margin: 0px 50px;
+    align-items: center;
   }
 
   .contacts__icon {
     width: 16px;
     height: 12px;
     fill: $colorTextPrimary;
-    margin-right: 10px;
+    margin-right: 8px;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -53,7 +71,7 @@
     width: 10px;
     height: 16px;
     fill: $colorTextPrimary;
-    margin-right: 10px;
+    margin-right: 8px;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
