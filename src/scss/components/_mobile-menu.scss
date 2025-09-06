@@ -19,6 +19,8 @@
     display: flex;
     flex-direction: row;
     gap: 315px;
+    justify-content: center;
+    align-items: center;
   }
   .mobile-menu__btn {
     display: none;
@@ -30,8 +32,7 @@
 @media (max-width: 1200px) {
   .mobile-menu__wrapp {
     display: flex;
-    justify-content: center;
-    align-items: center;
+
     gap: 96px;
   }
 }
