@@ -19,7 +19,11 @@
   position: relative;
   overflow: hidden;
 }
-
+.project__img {
+  max-width: 450px;
+  height: auto;
+  display: block;
+}
 .project__overlay {
   inset: 0;
   position: absolute;
@@ -63,19 +67,296 @@
   color: $colorTextWords;
   flex-basis: calc((100% - 60px) / 3);
 }
-@media (min-width: 768px) {
-  .project__item {
-    flex-basis: calc((100% - 30px) / 2);
+.project__img-t {
+  background-image: url(../imges/tekhnokrak-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project__img-no {
+  background-image: url(../imges/n-orlean-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project__img-s {
+  background-image: url(../imges/seafood-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project__img-p {
+  background-image: url(../imges/prime-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project__img-b {
+  background-image: url(../imges/boxes-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project__img-i {
+  background-image: url(../imges/boxes-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project__img-le {
+  background-image: url(../imges/limited-e-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project__img-let {
+  background-image: url(../imges/lab-el-tag-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.project__img-t {
+  background-image: url(../imges/g-buisness-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-resolution: 2dppx), (min-device-pixel-ratio: 2) {
+  .project__img-t {
+    background-image: url(../imges/tekhnokrak-mobile@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
-  .project {
-    width: 354px;
+  .project__img-no {
+    background-image: url(../imges/n-orlean-mobile@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-s {
+    background-image: url(../imges/seafood-mobile@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-p {
+    background-image: url(../imges/prime-mobile@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-b {
+    background-image: url(../imges/boxes-mobile@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-i {
+    background-image: url(../imges/boxes-mobile@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-le {
+    background-image: url(../imges/limited-e-mobile@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-let {
+    background-image: url(../imges/lab-el-tag-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-t {
+    background-image: url(../imges/g-buisness-mobile@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
+@media (min-width: 768px) {
+  .project__img-t {
+    background-image: url(../imges/tekhnokrak-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-no {
+    background-image: url(../imges/n-orlean-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-s {
+    background-image: url(../imges/seafood-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-p {
+    background-image: url(../imges/prime-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-b {
+    background-image: url(../imges/boxes-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-i {
+    background-image: url(../imges/ispiration-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-le {
+    background-image: url(../imges/limited-e-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-let {
+    background-image: url(../imges/lab-el-tag-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-g {
+    background-image: url(../imges/g-buisness-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+@media (min-resolution: 2dppx), (min-device-pixel-ratio: 2) {
+  .project__img-t {
+    background-image: url(../imges/tekhnokrak-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-no {
+    background-image: url(../imges/n-orlean-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-s {
+    background-image: url(../imges/seafood-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-p {
+    background-image: url(../imges/prime-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-b {
+    background-image: url(../imges/boxes-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-i {
+    background-image: url(../imges/ispiration-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-le {
+    background-image: url(../imges/limited-e-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-let {
+    background-image: url(../imges/lab-el-tag-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-g {
+    background-image: url(../imges/g-buisness-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.project__item {
+  flex-basis: calc((100% - 30px) / 2);
+}
+.project {
+  width: 354px;
+}
+
 @media (min-width: 1200px) {
   .portfolio {
     padding-top: 94px;
   }
   .project {
     width: 370px;
+  }
+  .project__img-t {
+    background-image: url(../imges/tekhnokrak-descktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-no {
+    background-image: url(../imges/n-orlean-descktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-s {
+    background-image: url(../imges/seafood-descktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-p {
+    background-image: url(../imges/prime-descktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-b {
+    background-image: url(../imges/boxes-descktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-i {
+    background-image: url(../imges/ispiration-descktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-le {
+    background-image: url(../imges/limited-e-descktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-let {
+    background-image: url(../imges/lab-el-tag-descktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .project__img-g {
+    background-image: url(../imges/g-buisness-descktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media (min-resolution: 2dppx), (min-device-pixel-ratio: 2) {
+    .project__img-t {
+      background-image: url(../imges/tekhnokrak-descktop@2x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .project__img-no {
+      background-image: url(../imges/n-orlean-descktop@2x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .project__img-s {
+      background-image: url(../imges/seafood-descktop@2x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .project__img-p {
+      background-image: url(../imges/prime-descktop@2x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .project__img-b {
+      background-image: url(../imges/boxes-descktop@2x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .project__img-i {
+      background-image: url(../imges/ispiration-descktop@2x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .project__img-le {
+      background-image: url(../imges/limited-e-descktop@2x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .project__img-let {
+      background-image: url(../imges/lab-el-tag-descktop@2x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .project__img-g {
+      background-image: url(../imges/g-buisness-descktop@2x.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   }
 }

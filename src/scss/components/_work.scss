@@ -1,35 +1,55 @@
-.work {
-  display: none;
-}
-.work__title {
-  font-weight: 700;
-  font-size: 36px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  padding-bottom: 50px;
-  color: $colorTextTitle;
-}
+@media (min-width: 1200) {
+  .work__title {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-bottom: 50px;
+    color: $colorTextTitle;
+  }
 
-.work__list {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  text-decoration: none;
-  list-style-type: none;
-  flex-wrap: wrap;
+  .work__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    flex-wrap: wrap;
+  }
+  .work__item {
+    position: relative;
+  }
+  .work__photo {
+    max-width: 370px;
+    max-height: 294px;
+  }
+  .work__subtitle {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: $colorTextSecondary;
+    background-color: rgb(47, 48, 58, 0.8);
+    padding-top: 27px;
+    padding-bottom: 27px;
+    padding-left: 107px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
 }
-.work__item {
-  position: relative;
-}
-.work__subtitle {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: $colorTextSecondary;
-  background-color: rgb(47, 48, 58, 0.8);
-  padding-top: 27px;
-  padding-bottom: 27px;
-  padding-left: 107px;
-  font-size: 14px;
-  text-transform: uppercase;
+@media (min-resolution: 2dppx), (min-device-pixel-ratio: 2) {
+  .work__img-c {
+    background-image: url(../imges/work/coding-descktop@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .work__img-ph {
+    background-image: url(../imges/work/phone-descktop@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .work__img-c {
+    background-image: url(../imges/work/graphic-d-descktop@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }

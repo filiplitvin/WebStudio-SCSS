@@ -3,10 +3,19 @@
   padding-bottom: 120px;
   background-color: $colorTextFooterAndSections;
   background-image: linear-gradient(to right, #2f303a40, #2f303a40),
-    url(../hero-photo/bg-photo.webp);
+    url(../hero-photo/bg-moblie@1x.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media (min-resolution: 2dppx), (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: linear-gradient(to right, #2f303a40, #2f303a40),
+      url(../hero-photo/bg-mobile@2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 .hero__container {
   display: flex;
@@ -55,12 +64,40 @@
   .hero {
     padding-top: 118px;
     padding-bottom: 118px;
+    background-image: linear-gradient(to right, #2f303a40, #2f303a40),
+      url(../hero-photo/bg-tablet@1x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  @media (min-resolution: 2dppx), (min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(to right, #2f303a40, #2f303a40),
+        url(../hero-photo/bg-tablet@2x.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
   }
 }
 @media (min-width: 1200px) {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: linear-gradient(to right, #2f303a40, #2f303a40),
+      url(../hero-photo/bg-photo.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  @media (min-resolution: 2dppx), (min-device-pixel-ratio: 2) {
+    .hero {
+      background-image: linear-gradient(to right, #2f303a40, #2f303a40),
+        url(../hero-photo/bg-descktop@2x.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
   }
   .hero__title {
     font-size: 44px;
