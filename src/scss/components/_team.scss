@@ -70,25 +70,3 @@
     max-width: 270px;
   }
 }
-@media (min-resolution: 2dppx), (min-device-pixel-ratio: 2) {
-  .teammate__img-d {
-    background-image: url(../imges/team/igor-d-mobile@2x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .teammate__img-o {
-    background-image: url(../imges/team/olga-r-descktop@2x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .teammate__img-mik {
-    background-image: url(../imges/team/mikola-t-mobile@2x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .teammate__img-mic {
-    background-image: url(../imges/team/mickailo-y-mobile@2x.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
